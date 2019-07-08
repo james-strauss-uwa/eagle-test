@@ -306,7 +306,7 @@
                     "Id": "9de24943-9151-4e7c-9f1c-aee635b7fb7f"
                 }
             ], 
-            "text": "ClusterScatterAverager", 
+            "text": "ClusterScatterAverager2", 
             "colour": " #DDAD00", 
             "canHaveOutputs": true, 
             "canHaveInputs": true, 
