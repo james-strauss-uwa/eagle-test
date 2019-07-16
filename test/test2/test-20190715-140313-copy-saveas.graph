@@ -98,7 +98,7 @@
             "shape": "Card", 
             "isGroup": false, 
             "key": -4, 
-            "text": "test memory 2", 
+            "text": "test memory 3", 
             "type": "Memory Drop", 
             "inputPorts": []
         }, 
