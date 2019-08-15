@@ -1,0 +1,366 @@
+{
+    "copiesArrayObjects": true, 
+    "linkToPortIdProperty": "toPort", 
+    "linkFromPortIdProperty": "fromPort", 
+    "linkDataArray": [
+        {
+            "toPort": "6d45f09f-18d5-4baf-96b3-443da5142377", 
+            "fromPort": "bedd3efb-1656-4341-8cd5-1e67cb95ed8d", 
+            "points": [
+                568.534203125, 
+                97.8718984375, 
+                568.534203125, 
+                107.8718984375, 
+                568.534203125, 
+                108, 
+                616.178734375, 
+                108, 
+                616.178734375, 
+                170.87189843750002, 
+                616.178734375, 
+                180.87189843750002
+            ], 
+            "from": -4, 
+            "to": -5
+        }, 
+        {
+            "toPort": "1cc8596d-41b0-477a-8104-2169952e8605", 
+            "fromPort": "0624148f-7015-4675-87b4-d43026719185", 
+            "points": [
+                768.534203125, 
+                197.87189843750002, 
+                768.534203125, 
+                207.87189843750002, 
+                768.534203125, 
+                207.87189843750002, 
+                816.178734375, 
+                207.87189843750002, 
+                816.178734375, 
+                270.87189843749996, 
+                816.178734375, 
+                280.87189843749996
+            ], 
+            "from": -5, 
+            "to": -3
+        }, 
+        {
+            "toPort": "36ebc350-72dd-42d6-afa9-c16f444a7c8c", 
+            "fromPort": "c90d334c-c3af-4dd0-9d2d-c1c497acd052", 
+            "points": [
+                968.534203125, 
+                297.87189843749996, 
+                968.534203125, 
+                307.87189843749996, 
+                968.534203125, 
+                308, 
+                1016.178734375, 
+                308, 
+                1016.178734375, 
+                370.87189843749996, 
+                1016.178734375, 
+                380.87189843749996
+            ], 
+            "from": -3, 
+            "to": -2
+        }
+    ], 
+    "nodeDataArray": [
+        {
+            "category": "memory", 
+            "loc": "400.001 60.001", 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "bedd3efb-1656-4341-8cd5-1e67cb95ed8d", 
+                    "nodeKey": -4
+                }
+            ], 
+            "isData": true, 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0"
+                }
+            ], 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "categoryType": "DataDrop", 
+            "shape": "Card", 
+            "isGroup": false, 
+            "key": -4, 
+            "text": "test memory", 
+            "type": "Memory Drop", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "1ae91919-8f2a-47f5-9e31-78f9136c2139", 
+                    "nodeKey": -4
+                }
+            ]
+        }, 
+        {
+            "category": "file", 
+            "loc": "600.001 160.001", 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "0624148f-7015-4675-87b4-d43026719185", 
+                    "nodeKey": -5
+                }
+            ], 
+            "isData": true, 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Check file path exists", 
+                    "name": "check_filepath_exists", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "File path", 
+                    "name": "filepath", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Directory name", 
+                    "name": "dirname", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "categoryType": "DataDrop", 
+            "shape": "Card", 
+            "isGroup": false, 
+            "key": -5, 
+            "text": "test file", 
+            "type": "File Drop", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "6d45f09f-18d5-4baf-96b3-443da5142377", 
+                    "nodeKey": -5
+                }
+            ]
+        }, 
+        {
+            "category": "BashShellApp", 
+            "loc": "800.001 260.001", 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "c90d334c-c3af-4dd0-9d2d-c1c497acd052", 
+                    "nodeKey": -3
+                }
+            ], 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "name": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "name": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "name": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "name": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "name": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "name": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "name": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "name": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "name": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "name": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #1C2833", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "categoryType": "ApplicationDrop", 
+            "isGroup": false, 
+            "key": -3, 
+            "text": "test shell app", 
+            "type": "Shell App", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "1cc8596d-41b0-477a-8104-2169952e8605", 
+                    "nodeKey": -3
+                }
+            ]
+        }, 
+        {
+            "category": "Component", 
+            "loc": "1000.001 360.001", 
+            "isData": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "c625742d-660f-4be3-a76b-2c082701c6c1", 
+                    "nodeKey": -2
+                }
+            ], 
+            "text": "test python app", 
+            "colour": " #3498DB", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "categoryType": "ApplicationDrop", 
+            "isGroup": false, 
+            "key": -2, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "test.graphsRepository"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "name": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "name": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "name": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "name": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "name": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "name": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "name": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "name": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "name": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "name": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "Python App", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "36ebc350-72dd-42d6-afa9-c16f444a7c8c", 
+                    "nodeKey": -2
+                }
+            ]
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": "graph", 
+        "git_url": "", 
+        "filePath": "test/test-20190815-100946.graph"
+    }, 
+    "class": "GraphLinksModel", 
+    "copiesArrays": true
+}
