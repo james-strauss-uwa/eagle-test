@@ -1,0 +1,275 @@
+{
+    "linkDataArray": [
+        {
+            "toPort": "da82845e-8136-4c05-82a4-1a48d6a18dae", 
+            "fromPort": "48517114-d1f9-49c6-a28d-1419a306ad08", 
+            "from": -1, 
+            "to": -1
+        }, 
+        {
+            "toPort": "3b2424a7-d98a-4c92-a898-ae79d4dadc8f", 
+            "fromPort": "48517114-d1f9-49c6-a28d-1419a306ad08", 
+            "from": -1, 
+            "to": -1
+        }, 
+        {
+            "toPort": "c339c884-66d8-4fd6-b72e-3d0e626c63e9", 
+            "fromPort": "a766bdec-0886-4c7b-be8b-656bfd433e0c", 
+            "from": -1, 
+            "to": -1
+        }
+    ], 
+    "nodeDataArray": [
+        {
+            "category": "memory", 
+            "loc": "200 100", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "da82845e-8136-4c05-82a4-1a48d6a18dae"
+                }
+            ], 
+            "isData": true, 
+            "outputLocalPorts": [], 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "48517114-d1f9-49c6-a28d-1419a306ad08"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "value": "0"
+                }
+            ], 
+            "type": "memory", 
+            "appFields": []
+        }, 
+        {
+            "category": "memory", 
+            "loc": "438.001 270.001", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "da82845e-8136-4c05-82a4-1a48d6a18dae"
+                }
+            ], 
+            "isData": true, 
+            "outputLocalPorts": [], 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "48517114-d1f9-49c6-a28d-1419a306ad08"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "value": "0"
+                }
+            ], 
+            "type": "memory", 
+            "appFields": []
+        }, 
+        {
+            "category": "BashShellApp", 
+            "loc": "649.001 391.001", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "3b2424a7-d98a-4c92-a898-ae79d4dadc8f"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "a766bdec-0886-4c7b-be8b-656bfd433e0c"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "BashShellApp", 
+            "appFields": []
+        }, 
+        {
+            "category": "Component", 
+            "loc": "868.001 512.001", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "c339c884-66d8-4fd6-b72e-3d0e626c63e9"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #3498DB", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "eaf4e6ff-e52b-42ec-b6c4-5af55435a573"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Appclass", 
+                    "value": "test.graphsRepository"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "Component", 
+            "appFields": []
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": 0, 
+        "git_url": "", 
+        "filePath": "export.graph"
+    }
+}
