@@ -7,21 +7,22 @@
             "inputPorts": [], 
             "isData": false, 
             "outputLocalPorts": [], 
-            "text": "Enter label", 
+            "categoryType": "ControlComponent", 
             "colour": " #229954", 
             "canHaveOutputs": true, 
             "isGroup": false, 
             "outputPorts": [
                 {
                     "IdText": "event", 
-                    "Id": "9efcaa08-377c-4e17-b462-0c6c61b20bb1"
+                    "Id": "5759f082-97b2-4493-8ff3-411812ae3a50"
                 }
             ], 
             "inputLocalPorts": [], 
             "canHaveInputs": false, 
             "key": -1, 
+            "text": "Enter label", 
             "fields": [], 
-            "type": "ControlComponent", 
+            "type": "Start", 
             "appFields": []
         }, 
         {
@@ -30,12 +31,12 @@
             "inputPorts": [
                 {
                     "IdText": "event", 
-                    "Id": "0e530505-259d-4db5-854b-6ef29ae21ac9"
+                    "Id": "dc528530-3432-4793-92c1-e3c71b99a3a0"
                 }
             ], 
             "isData": false, 
             "outputLocalPorts": [], 
-            "text": "Enter label", 
+            "categoryType": "ControlComponent", 
             "colour": " #CB4335", 
             "canHaveOutputs": false, 
             "isGroup": false, 
@@ -43,8 +44,9 @@
             "inputLocalPorts": [], 
             "canHaveInputs": true, 
             "key": -1, 
+            "text": "Enter label", 
             "fields": [], 
-            "type": "ControlComponent", 
+            "type": "End", 
             "appFields": []
         }, 
         {
@@ -53,24 +55,25 @@
             "inputPorts": [
                 {
                     "IdText": "event", 
-                    "Id": "c734f326-7567-4357-94a6-36217868b8ae"
+                    "Id": "61a3ce78-9920-4760-99b8-650e14b83550"
                 }
             ], 
             "isData": false, 
             "outputLocalPorts": [], 
-            "text": "Enter label", 
+            "categoryType": "ApplicationDrop", 
             "colour": " #1C2833", 
             "canHaveOutputs": true, 
             "isGroup": false, 
             "outputPorts": [
                 {
                     "IdText": "event", 
-                    "Id": "142466d1-7e8f-4d5e-a04d-9a1bf3864338"
+                    "Id": "60c8435b-ae05-4ba4-a30c-d58c015a21fd"
                 }
             ], 
             "inputLocalPorts": [], 
             "canHaveInputs": true, 
             "key": -1, 
+            "text": "Enter label", 
             "fields": [
                 {
                     "text": "Execution time", 
@@ -125,7 +128,7 @@
                     "value": ""
                 }
             ], 
-            "type": "ApplicationDrop", 
+            "type": "BashShellApp", 
             "appFields": []
         }, 
         {
@@ -134,24 +137,25 @@
             "inputPorts": [
                 {
                     "IdText": "event", 
-                    "Id": "946770b7-dfe9-4ff6-bb20-3b153ddff4e8"
+                    "Id": "c3f09bc7-1cb6-4d2a-9943-7517f107b07c"
                 }
             ], 
             "isData": false, 
             "outputLocalPorts": [], 
-            "text": "Enter label", 
+            "categoryType": "ApplicationDrop", 
             "colour": " #3470AA", 
             "canHaveOutputs": true, 
             "isGroup": false, 
             "outputPorts": [
                 {
                     "IdText": "event", 
-                    "Id": "4d2e2cf0-ade5-48c9-9718-8d59bed61e18"
+                    "Id": "9511dbf6-b0b4-4acf-83e7-4d10a9d8c570"
                 }
             ], 
             "inputLocalPorts": [], 
             "canHaveInputs": true, 
             "key": -1, 
+            "text": "Enter label", 
             "fields": [
                 {
                     "text": "Execution time", 
@@ -210,7 +214,7 @@
                     "value": ""
                 }
             ], 
-            "type": "ApplicationDrop", 
+            "type": "DynlibApp", 
             "appFields": []
         }
     ], 
