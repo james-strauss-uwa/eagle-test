@@ -1,0 +1,224 @@
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "category": "Start", 
+            "loc": "200 100", 
+            "inputPorts": [], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #229954", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "9efcaa08-377c-4e17-b462-0c6c61b20bb1"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": false, 
+            "key": -1, 
+            "fields": [], 
+            "type": "ControlComponent", 
+            "appFields": []
+        }, 
+        {
+            "category": "End", 
+            "loc": "200 100", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "0e530505-259d-4db5-854b-6ef29ae21ac9"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #CB4335", 
+            "canHaveOutputs": false, 
+            "isGroup": false, 
+            "outputPorts": [], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "fields": [], 
+            "type": "ControlComponent", 
+            "appFields": []
+        }, 
+        {
+            "category": "BashShellApp", 
+            "loc": "200 100", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "c734f326-7567-4357-94a6-36217868b8ae"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #1C2833", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "142466d1-7e8f-4d5e-a04d-9a1bf3864338"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "ApplicationDrop", 
+            "appFields": []
+        }, 
+        {
+            "category": "DynlibApp", 
+            "loc": "200 100", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "946770b7-dfe9-4ff6-bb20-3b153ddff4e8"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #3470AA", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "4d2e2cf0-ade5-48c9-9718-8d59bed61e18"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Library path", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "ApplicationDrop", 
+            "appFields": []
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": 1, 
+        "git_url": "", 
+        "filePath": "test.palette"
+    }
+}
