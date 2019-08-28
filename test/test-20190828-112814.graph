@@ -1,0 +1,287 @@
+{
+    "linkDataArray": [
+        {
+            "toPort": "17473899-bb8f-402e-a361-a3136c612098", 
+            "fromPort": "9127eccd-9f1b-421f-8d06-a3aa5ae6bac0", 
+            "from": -1, 
+            "to": -2
+        }, 
+        {
+            "toPort": "9efdcd8e-08a0-4cf9-a158-f74d5136e663", 
+            "fromPort": "9d1bd0c8-8db7-4da7-9c80-b6759f7a6ce9", 
+            "from": -2, 
+            "to": -3
+        }, 
+        {
+            "toPort": "68ed2d41-6a93-4ef9-8dd4-9bc95f71cca8", 
+            "fromPort": "b67da1ca-bd51-4769-8bdc-0a5bd2992b79", 
+            "from": -3, 
+            "to": -4
+        }
+    ], 
+    "nodeDataArray": [
+        {
+            "category": "memory", 
+            "loc": "200.001 100.001", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "8d5268aa-40fd-4e34-a947-8f0e3edd2feb"
+                }
+            ], 
+            "isData": true, 
+            "outputLocalPorts": [], 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "9127eccd-9f1b-421f-8d06-a3aa5ae6bac0"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -1, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "value": "0"
+                }
+            ], 
+            "type": "memory", 
+            "appFields": []
+        }, 
+        {
+            "category": "file", 
+            "loc": "400.001 200.001", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "17473899-bb8f-402e-a361-a3136c612098"
+                }
+            ], 
+            "isData": true, 
+            "outputLocalPorts": [], 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "9d1bd0c8-8db7-4da7-9c80-b6759f7a6ce9"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -2, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Check file path exists", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "File path", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Directory name", 
+                    "value": ""
+                }
+            ], 
+            "type": "file", 
+            "appFields": []
+        }, 
+        {
+            "category": "BashShellApp", 
+            "loc": "600.001 300.001", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "9efdcd8e-08a0-4cf9-a158-f74d5136e663"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "b67da1ca-bd51-4769-8bdc-0a5bd2992b79"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -3, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "BashShellApp", 
+            "appFields": []
+        }, 
+        {
+            "category": "Component", 
+            "loc": "800.001 400.001", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "68ed2d41-6a93-4ef9-8dd4-9bc95f71cca8"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #3498DB", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "6ce0fce7-0019-4187-a578-77bcceaf3a67"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -4, 
+            "text": "Enter label", 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Appclass", 
+                    "value": "test.graphsRepository"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "Component", 
+            "appFields": []
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": 0, 
+        "git_url": "", 
+        "filePath": "test/test-20190828-112814.graph"
+    }
+}
