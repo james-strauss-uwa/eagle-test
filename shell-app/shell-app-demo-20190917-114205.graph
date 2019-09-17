@@ -1,0 +1,372 @@
+{
+    "linkDataArray": [
+        {
+            "toPort": "59da6f83-5cd4-4d7f-b4c2-5c3b489c1dde", 
+            "fromPort": "7156fbc1-d23f-46d5-8067-bacbc23ab82f", 
+            "from": -2, 
+            "to": -4
+        }, 
+        {
+            "toPort": "69f70d61-cfe7-4638-b521-cabe508b6b1d", 
+            "fromPort": "3ab77b0b-27f5-4d6a-9c75-8594c0fd381e", 
+            "from": -4, 
+            "to": -3
+        }, 
+        {
+            "toPort": "a4b15b2b-52c6-4b7c-94e0-575877da8297", 
+            "fromPort": "7e092511-523b-46d8-a22c-b4d54fd0f01c", 
+            "from": -3, 
+            "to": -5
+        }
+    ], 
+    "nodeDataArray": [
+        {
+            "category": "Description", 
+            "loc": "200.001 156.001", 
+            "inputPorts": [], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "categoryType": "ControlComponent", 
+            "colour": "#9b3065", 
+            "canHaveOutputs": false, 
+            "isGroup": false, 
+            "outputPorts": [], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": false, 
+            "key": -1, 
+            "text": "Description", 
+            "fields": [], 
+            "type": "Description", 
+            "appFields": []
+        }, 
+        {
+            "category": "BashShellApp", 
+            "loc": "400.00199999999995 256.00199999999995", 
+            "inputPorts": [
+                {
+                    "multiplicity": 1, 
+                    "IdText": "event", 
+                    "Id": "6da89e0f-16ba-41cc-ab18-f1fee9c89fd0"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "multiplicity": 1, 
+                    "IdText": "event", 
+                    "Id": "7e092511-523b-46d8-a22c-b4d54fd0f01c"
+                }, 
+                {
+                    "multiplicity": 1, 
+                    "IdText": "random_file", 
+                    "Id": "7156fbc1-d23f-46d5-8067-bacbc23ab82f"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -2, 
+            "text": "DD", 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "name": "Arg01", 
+                    "value": "dd"
+                }, 
+                {
+                    "text": "Arg02", 
+                    "name": "Arg02", 
+                    "value": "if=/dev/urandom"
+                }, 
+                {
+                    "text": "Arg03", 
+                    "name": "Arg03", 
+                    "value": "of=%o[${ID}]"
+                }, 
+                {
+                    "text": "Arg04", 
+                    "name": "Arg04", 
+                    "value": "bs=1024"
+                }, 
+                {
+                    "text": "Arg05", 
+                    "name": "Arg05", 
+                    "value": "count=10240"
+                }, 
+                {
+                    "text": "Arg06", 
+                    "name": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "name": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "name": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "name": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "name": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "BashShellApp", 
+            "appFields": []
+        }, 
+        {
+            "category": "BashShellApp", 
+            "loc": "800.002 400.00199999999995", 
+            "inputPorts": [
+                {
+                    "multiplicity": 1, 
+                    "IdText": "event", 
+                    "Id": "6da89e0f-16ba-41cc-ab18-f1fee9c89fd0"
+                }, 
+                {
+                    "multiplicity": 1, 
+                    "IdText": "random_file", 
+                    "Id": "69f70d61-cfe7-4638-b521-cabe508b6b1d"
+                }
+            ], 
+            "isData": false, 
+            "outputLocalPorts": [], 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "multiplicity": 1, 
+                    "IdText": "event", 
+                    "Id": "7e092511-523b-46d8-a22c-b4d54fd0f01c"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -3, 
+            "text": "MD5", 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Arg01", 
+                    "name": "Arg01", 
+                    "value": "md5 %i[-4] > %o[-5]"
+                }, 
+                {
+                    "text": "Arg02", 
+                    "name": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg03", 
+                    "name": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg04", 
+                    "name": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg05", 
+                    "name": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg06", 
+                    "name": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg07", 
+                    "name": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg08", 
+                    "name": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg09", 
+                    "name": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Arg10", 
+                    "name": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "type": "BashShellApp", 
+            "appFields": []
+        }, 
+        {
+            "category": "file", 
+            "loc": "600.002 356.00199999999995", 
+            "inputPorts": [
+                {
+                    "multiplicity": 1, 
+                    "IdText": "event", 
+                    "Id": "a4b15b2b-52c6-4b7c-94e0-575877da8297"
+                }, 
+                {
+                    "multiplicity": 1, 
+                    "IdText": "random_file", 
+                    "Id": "59da6f83-5cd4-4d7f-b4c2-5c3b489c1dde"
+                }
+            ], 
+            "isData": true, 
+            "outputLocalPorts": [], 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [
+                {
+                    "multiplicity": 1, 
+                    "IdText": "event", 
+                    "Id": "69064528-2441-48b3-bc4d-7b649f995dd7"
+                }, 
+                {
+                    "multiplicity": 1, 
+                    "IdText": "random_file", 
+                    "Id": "3ab77b0b-27f5-4d6a-9c75-8594c0fd381e"
+                }
+            ], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -4, 
+            "text": "Random File Content", 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Check file path exists", 
+                    "name": "check_filepath_exists", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "File path", 
+                    "name": "filepath", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Directory name", 
+                    "name": "dirname", 
+                    "value": ""
+                }
+            ], 
+            "type": "file", 
+            "appFields": []
+        }, 
+        {
+            "category": "file", 
+            "loc": "1000.001 500.001", 
+            "inputPorts": [
+                {
+                    "multiplicity": 1, 
+                    "IdText": "event", 
+                    "Id": "a4b15b2b-52c6-4b7c-94e0-575877da8297"
+                }
+            ], 
+            "isData": true, 
+            "outputLocalPorts": [], 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "canHaveOutputs": true, 
+            "isGroup": false, 
+            "outputPorts": [], 
+            "inputLocalPorts": [], 
+            "canHaveInputs": true, 
+            "key": -5, 
+            "text": "MD5 Result", 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Check file path exists", 
+                    "name": "check_filepath_exists", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "File path", 
+                    "name": "filepath", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Directory name", 
+                    "name": "dirname", 
+                    "value": ""
+                }
+            ], 
+            "type": "file", 
+            "appFields": []
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": 0, 
+        "git_url": "", 
+        "filePath": "shell-app/shell-app-demo-20190917-114205.graph"
+    }
+}
