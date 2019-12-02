@@ -1,0 +1,320 @@
+{
+    "linkDataArray": [
+        {
+            "toPort": "c69ef985-b6ba-4902-b7cc-6f3cdf78c598", 
+            "fromPort": "6b128ce5-a43f-476a-bc3f-e849b9fc42bc", 
+            "from": -2, 
+            "to": -4
+        }, 
+        {
+            "toPort": "241cc591-659e-4c04-95a4-b86c64ac07a8", 
+            "fromPort": "eb6aede5-a674-45a2-9fe8-5e7d6fe04d2d", 
+            "from": -4, 
+            "to": -3
+        }
+    ], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "MD5 Result", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "Description", 
+            "loc": "1000.002 500.00199999999995", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": false, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "Description", 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [], 
+            "colour": "#9b3065", 
+            "inputPorts": [], 
+            "categoryType": "Other", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "796d253d-2808-4fb9-8166-c1f83175f185"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "6b128ce5-a43f-476a-bc3f-e849b9fc42bc"
+                }
+            ], 
+            "outputLocalPorts": [], 
+            "text": "DD", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "BashShellApp", 
+            "loc": "400.00199999999995 256.00199999999995", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "BashShellApp", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "dd", 
+                    "name": "dd", 
+                    "value": "dd"
+                }, 
+                {
+                    "text": "if", 
+                    "name": "if", 
+                    "value": "/dev/urandom"
+                }, 
+                {
+                    "text": "of", 
+                    "name": "of", 
+                    "value": "%o[${ID}]"
+                }, 
+                {
+                    "text": "bs", 
+                    "name": "bs", 
+                    "value": "1024"
+                }, 
+                {
+                    "text": "count", 
+                    "name": "count", 
+                    "value": "10240"
+                }
+            ], 
+            "colour": " #1C2833", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "e350c985-8c86-490b-9ea1-13fafd1d2385"
+                }
+            ], 
+            "categoryType": "ApplicationDrop", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "796d253d-2808-4fb9-8166-c1f83175f185"
+                }
+            ], 
+            "outputLocalPorts": [], 
+            "text": "Random File Content", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "BashShellApp", 
+            "loc": "800.002 400.00199999999995", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "BashShellApp", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -3, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "md5", 
+                    "name": "md5", 
+                    "value": "md5 %i[-4] > %o[-5]"
+                }
+            ], 
+            "colour": " #1C2833", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "e350c985-8c86-490b-9ea1-13fafd1d2385"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "241cc591-659e-4c04-95a4-b86c64ac07a8"
+                }
+            ], 
+            "categoryType": "ApplicationDrop", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "52ff97a8-341d-49de-90c4-fe438a1bf87d"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "eb6aede5-a674-45a2-9fe8-5e7d6fe04d2d"
+                }
+            ], 
+            "outputLocalPorts": [], 
+            "text": "random_file", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "file", 
+            "loc": "700.001 368.001", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "file", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -4, 
+            "isData": true, 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Check file path exists", 
+                    "name": "check_filepath_exists", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "File path", 
+                    "name": "filepath", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Directory name", 
+                    "name": "dirname", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #394BB2", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "5f4249f5-702a-4e2e-836d-e08d43b958c7"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "c69ef985-b6ba-4902-b7cc-6f3cdf78c598"
+                }
+            ], 
+            "categoryType": "DataDrop", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "file", 
+            "loc": "200 100", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "file", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -5, 
+            "isData": true, 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Check file path exists", 
+                    "name": "check_filepath_exists", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "File path", 
+                    "name": "filepath", 
+                    "value": ""
+                }, 
+                {
+                    "text": "Directory name", 
+                    "name": "dirname", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #394BB2", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "5f4249f5-702a-4e2e-836d-e08d43b958c7"
+                }
+            ], 
+            "categoryType": "DataDrop", 
+            "outputApplication": "Unknown"
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": "graph", 
+        "git_url": "", 
+        "filePath": "shell-app/shell-app-20191202-141533.graph"
+    }
+}
