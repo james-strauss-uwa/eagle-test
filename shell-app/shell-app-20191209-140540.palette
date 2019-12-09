@@ -1,0 +1,270 @@
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Start", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "Start", 
+            "loc": "300 100", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": false, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "Start", 
+            "description": "", 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [], 
+            "colour": "#229954", 
+            "inputPorts": [], 
+            "exitAppName": "", 
+            "categoryType": "ControlComponent", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "End", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "End", 
+            "loc": "300 100", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": false, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "End", 
+            "description": "", 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "isData": false, 
+            "fields": [], 
+            "colour": "#CB4335", 
+            "inputPorts": [], 
+            "exitAppName": "", 
+            "categoryType": "ControlComponent", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Comment", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "Comment", 
+            "loc": "300 100", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": false, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "Comment", 
+            "description": "", 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "inputLocalPorts": [], 
+            "key": -3, 
+            "isData": false, 
+            "fields": [], 
+            "colour": "#799938", 
+            "inputPorts": [], 
+            "exitAppName": "", 
+            "categoryType": "Other", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Description", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "Description", 
+            "loc": "300 100", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": false, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "Description", 
+            "description": "", 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "inputLocalPorts": [], 
+            "key": -4, 
+            "isData": false, 
+            "fields": [], 
+            "colour": "#9b3065", 
+            "inputPorts": [], 
+            "exitAppName": "", 
+            "categoryType": "Other", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "0ed54b79-10c8-4c4e-b17c-575ecec6b49f"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "fe603531-1f20-4fc1-97e2-ffc95cf9bd30"
+                }
+            ], 
+            "outputLocalPorts": [], 
+            "text": "DD", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "BashShellApp", 
+            "loc": "300 100", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "BashShellApp", 
+            "description": "An application drop run within the Bash Shell", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -5, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "dd", 
+                    "name": "dd", 
+                    "value": "dd"
+                }, 
+                {
+                    "text": "if", 
+                    "name": "if", 
+                    "value": "/dev/urandom"
+                }, 
+                {
+                    "text": "of", 
+                    "name": "of", 
+                    "value": "%o[${ID}]"
+                }, 
+                {
+                    "text": "bs", 
+                    "name": "bs", 
+                    "value": "1024"
+                }, 
+                {
+                    "text": "count", 
+                    "name": "count", 
+                    "value": "10240"
+                }
+            ], 
+            "colour": " #1C2833", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "808935e9-36b2-4586-87c3-8f9e85e051fd"
+                }
+            ], 
+            "exitAppName": "", 
+            "categoryType": "ApplicationDrop", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "0ed54b79-10c8-4c4e-b17c-575ecec6b49f"
+                }
+            ], 
+            "outputLocalPorts": [], 
+            "text": "MD5", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "BashShellApp", 
+            "loc": "300 100", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "BashShellApp", 
+            "description": "An application drop run within the Bash Shell", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -6, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "md5", 
+                    "name": "md5", 
+                    "value": "md5 %i[-2] > %o[-3]"
+                }
+            ], 
+            "colour": " #1C2833", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "808935e9-36b2-4586-87c3-8f9e85e051fd"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "df8680e9-c270-4322-aa82-c1c4625b10c5"
+                }
+            ], 
+            "exitAppName": "", 
+            "categoryType": "ApplicationDrop", 
+            "outputApplication": "Unknown"
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": "palette", 
+        "git_url": "", 
+        "filePath": "shell-app/shell-app-20191209-140540.palette"
+    }
+}
