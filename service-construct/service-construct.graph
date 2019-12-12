@@ -1,0 +1,197 @@
+{
+    "linkDataArray": [
+        {
+            "toPort": "20a780bd-9946-456c-9ee6-a7ea05be1532", 
+            "fromPort": "bd668f3b-1959-475f-a34f-7473f3e43105", 
+            "from": -1, 
+            "to": -2
+        }, 
+        {
+            "toPort": "6b4ee9e1-1020-4daa-826b-932e341353dd", 
+            "fromPort": "3d3c4dfa-f00a-468e-af3a-b1a51c548320", 
+            "from": -2, 
+            "to": -1
+        }, 
+        {
+            "toPort": "0825cde7-175b-42a7-b249-50c833739656", 
+            "fromPort": "30bebfd1-9e20-4c45-a961-efe9df6d2af0", 
+            "from": -2, 
+            "to": -3
+        }
+    ], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "c01266db-dca2-49de-a6dc-449258fe72b6"
+                }
+            ], 
+            "outputLocalPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "bd668f3b-1959-475f-a34f-7473f3e43105"
+                }
+            ], 
+            "text": "MKN", 
+            "isGroup": true, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "MKN", 
+            "loc": "670.002 331.00199999999995", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "desiredSize": {
+                "width": 758, 
+                "class": "go.Size", 
+                "height": 568.0000305175781
+            }, 
+            "inputAppFields": [], 
+            "type": "MKN", 
+            "description": "Placeholder 'mkn' description", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "6b4ee9e1-1020-4daa-826b-932e341353dd"
+                }
+            ], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "M", 
+                    "name": "m", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "K", 
+                    "name": "k", 
+                    "value": "10"
+                }, 
+                {
+                    "text": "N", 
+                    "name": "n", 
+                    "value": "1"
+                }
+            ], 
+            "colour": " #D32000", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "ef0c62f9-60c6-4fe2-8558-dd4c8706d7ea"
+                }
+            ], 
+            "exitAppName": "", 
+            "categoryType": "GroupComponent", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "3d3c4dfa-f00a-468e-af3a-b1a51c548320"
+                }, 
+                {
+                    "IdText": "result", 
+                    "Id": "30bebfd1-9e20-4c45-a961-efe9df6d2af0"
+                }
+            ], 
+            "outputLocalPorts": [], 
+            "text": "Python App", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "category": "Component", 
+            "loc": "942.0059999999999 552.0059999999999", 
+            "group": -1, 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "Component", 
+            "description": "An application drop in the form of a Python app", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "outputAppFields": [], 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "test.graphsRepository"
+                }
+            ], 
+            "colour": " #3498DB", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "20a780bd-9946-456c-9ee6-a7ea05be1532"
+                }
+            ], 
+            "exitAppName": "", 
+            "categoryType": "ApplicationDrop", 
+            "outputApplication": "Unknown"
+        }, 
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Database", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "", 
+            "category": "Service", 
+            "loc": "1696.003 164.00299999999996", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": false, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "type": "Service", 
+            "description": "", 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "inputLocalPorts": [], 
+            "key": -3, 
+            "isData": false, 
+            "fields": [], 
+            "colour": " #EB1672", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "0825cde7-175b-42a7-b249-50c833739656"
+                }
+            ], 
+            "exitAppName": "", 
+            "categoryType": "Other", 
+            "outputApplication": "Unknown"
+        }
+    ], 
+    "modelData": {
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "fileType": "graph", 
+        "git_url": "", 
+        "filePath": "service-construct/service-construct.graph"
+    }
+}
