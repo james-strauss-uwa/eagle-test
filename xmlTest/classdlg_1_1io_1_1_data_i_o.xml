@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classdlg_1_1io_1_1_data_i_o" kind="class" language="Python" prot="public">
+    <compoundname>dlg::io::DataIO</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classdlg_1_1io_1_1_error_i_o" prot="public" virt="non-virtual">dlg.io.ErrorIO</derivedcompoundref>
+    <derivedcompoundref refid="classdlg_1_1io_1_1_file_i_o" prot="public" virt="non-virtual">dlg.io.FileIO</derivedcompoundref>
+    <derivedcompoundref refid="classdlg_1_1io_1_1_memory_i_o" prot="public" virt="non-virtual">dlg.io.MemoryIO</derivedcompoundref>
+    <derivedcompoundref refid="classdlg_1_1io_1_1_ngas_i_o" prot="public" virt="non-virtual">dlg.io.NgasIO</derivedcompoundref>
+    <derivedcompoundref refid="classdlg_1_1io_1_1_ngas_lite_i_o" prot="public" virt="non-virtual">dlg.io.NgasLiteIO</derivedcompoundref>
+    <derivedcompoundref refid="classdlg_1_1io_1_1_null_i_o" prot="public" virt="non-virtual">dlg.io.NullIO</derivedcompoundref>
+    <derivedcompoundref refid="classdlg_1_1io_1_1_shore_i_o" prot="public" virt="non-virtual">dlg.io.ShoreIO</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classdlg_1_1io_1_1_data_i_o_1a90d2be5bd3086e58dcea6c867afdd03e" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>dlg.io.DataIO::__metaclass__</definition>
+        <argsstring></argsstring>
+        <name>__metaclass__</name>
+        <initializer>=  ABCMeta</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This is for EAGLE.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">param/description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this is a init function<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">param/start_frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the start frequency to read from<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">param/end_frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the end frequency to read from<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">param/channels</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>how many channels to load<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">port/config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the configuration of the input_port<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">port/event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the event of the input_port<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">local-port/event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the event of the input_port<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">port/File</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file of the output_port <linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="99" column="1" bodyfile="dlg/io.py" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdlg_1_1io_1_1_data_i_o_1a36499b6379e5e0a1bc353973c9007d52" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>dlg.io.DataIO::_mode</definition>
+        <argsstring></argsstring>
+        <name>_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="102" column="1" bodyfile="dlg/io.py" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdlg_1_1io_1_1_data_i_o_1afcacd11a866005785e8b8a5f779f8c64" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>dlg.io.DataIO::_desc</definition>
+        <argsstring></argsstring>
+        <name>_desc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="111" column="1" bodyfile="dlg/io.py" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1a8dd78e162ff70a212c194b83fde592f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="101" column="1" bodyfile="dlg/io.py" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1a26f55fc3ec07c4ba1b368efabec59030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.open</definition>
+        <argsstring>(self, mode, **kwargs)</argsstring>
+        <name>open</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>mode</type>
+          <defname>mode</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Opens the underlying storage where the data represented by this instance
+is stored. Depending on the value of `mode` subsequent calls to
+`self.read` or `self.write` will succeed or fail.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="104" column="1" bodyfile="dlg/io.py" bodystart="104" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1ab879d559c140a654adb579beaa21ccdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.write</definition>
+        <argsstring>(self, data, **kwargs)</argsstring>
+        <name>write</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Writes `data` into the storage
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="113" column="1" bodyfile="dlg/io.py" bodystart="113" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1a40ba2bf7d6316e18bf4390c0ebedae29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.read</definition>
+        <argsstring>(self, count, **kwargs)</argsstring>
+        <name>read</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>count</type>
+          <defname>count</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Reads `count` bytes from the underlying storage.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="123" column="1" bodyfile="dlg/io.py" bodystart="123" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1a4b07e618575666ce9bc8c187e52c1af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.close</definition>
+        <argsstring>(self, **kwargs)</argsstring>
+        <name>close</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Closes the underlying storage where the data represented by this
+instance is stored, freeing underlying resources.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="133" column="1" bodyfile="dlg/io.py" bodystart="133" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1a8aba85be0b543302d1d54e2c5e5475f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.isOpened</definition>
+        <argsstring>(self)</argsstring>
+        <name>isOpened</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="143" column="1" bodyfile="dlg/io.py" bodystart="143" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1ab00e8bd46814d868b88b35316514ac91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.exists</definition>
+        <argsstring>(self)</argsstring>
+        <name>exists</name>
+        <reimplementedby refid="classdlg_1_1io_1_1_null_i_o_1a87220a768ce50067c80f05c0557441a6">exists</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_error_i_o_1a62fbc594ab9fc49505af8cd67c119d9b">exists</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_memory_i_o_1a2f877384d930bb045d44e6b7f8c35bde">exists</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_file_i_o_1a8854e6fa9ded5ba9c65b61021057d507">exists</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_shore_i_o_1a4854e9c5bfcc89b9978aeba3bfbb0986">exists</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_i_o_1afa14237aae15400863352eeb0fa08ed3">exists</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_lite_i_o_1a8fba6254265c887200eee953c3da25d6">exists</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns `True` if the data represented by this DataIO exists indeed in
+the underlying storage mechanism
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="147" column="1" bodyfile="dlg/io.py" bodystart="147" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1ab968d8e7bdbc120cb4fd008e104869bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO.delete</definition>
+        <argsstring>(self)</argsstring>
+        <name>delete</name>
+        <reimplementedby refid="classdlg_1_1io_1_1_null_i_o_1a98548c04eba553fed4825ac423eb6714">delete</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_error_i_o_1ac19f1862286303656b7cd68f51f990d5">delete</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_memory_i_o_1ad127367b4ef379d0f3e8af2932655519">delete</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_file_i_o_1abfb3b19bd32b9b9d9565051ae1c36b57">delete</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_shore_i_o_1a152711af8f742c2d45632f3bd9de305a">delete</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_i_o_1affe352c90721c528c963c2d3e5883b0f">delete</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_lite_i_o_1a0e07b1bc4fe1b327d1a376255de31e33">delete</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Deletes the data represented by this DataIO
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="154" column="1" bodyfile="dlg/io.py" bodystart="154" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1ad3e2dbf1f943988884e8b0c24a810aa8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO._open</definition>
+        <argsstring>(self, **kwargs)</argsstring>
+        <name>_open</name>
+        <reimplementedby refid="classdlg_1_1io_1_1_null_i_o_1a883d304f1089ad4205a355bdfdbcf476">_open</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_error_i_o_1abf5325eb4ed0e72046f19a09033700d2">_open</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_memory_i_o_1a3f25fcf9114ce9ea69755b384d93e195">_open</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_file_i_o_1aea5a19a8ee7f16cd642b4a09f3410426">_open</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_shore_i_o_1a3c972abdcc37db2ad481415c649644be">_open</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_i_o_1af06f69702d6ae774edcb4674f2447fee">_open</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_lite_i_o_1a7de7d1edbe28f46d1ef12792cb826a79">_open</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="160" column="1" bodyfile="dlg/io.py" bodystart="160" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1abe75ab7246f0302fed4afed9f5451ba7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO._read</definition>
+        <argsstring>(self, count, **kwargs)</argsstring>
+        <name>_read</name>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_i_o_1a093f3a81a358e3d415450cb575871340">_read</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_lite_i_o_1aebc4a121732659ddd487609fc784b617">_read</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_null_i_o_1ac0fddfe36a7f26a5ea1d7c77d1d64e73">_read</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_error_i_o_1ac26d315b4d1138e49503cc150f389364">_read</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_memory_i_o_1a0d2aefebe704997c4072dd1d25a924e5">_read</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_file_i_o_1a9f53da90ddad61b31f1ec950149de29a">_read</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>count</type>
+          <defname>count</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="163" column="1" bodyfile="dlg/io.py" bodystart="163" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1abfd832802db1908cfb3de2af340e044f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO._write</definition>
+        <argsstring>(self, data, **kwargs)</argsstring>
+        <name>_write</name>
+        <reimplementedby refid="classdlg_1_1io_1_1_null_i_o_1a1832165a9c2aad8c2c0ba9cf5f57153f">_write</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_error_i_o_1a96683696db5a5b318b1cf9f512d5a8c8">_write</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_memory_i_o_1a68ae337b3ae2cd5fd88cdd54b80593e5">_write</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_file_i_o_1a369408d0da54caa2cafa8f5081409434">_write</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_shore_i_o_1ab92eae61aadda17577f9fa81625a3685">_write</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_i_o_1aa9f6abcd5b8ecc688901335df66d00e2">_write</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_lite_i_o_1a5b104ca044c7f13c87724601db23b7ff">_write</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>data</type>
+          <defname>data</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="166" column="1" bodyfile="dlg/io.py" bodystart="166" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classdlg_1_1io_1_1_data_i_o_1a81ba123552b490d36c0b48725b9a992f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def dlg.io.DataIO._close</definition>
+        <argsstring>(self, **kwargs)</argsstring>
+        <name>_close</name>
+        <reimplementedby refid="classdlg_1_1io_1_1_null_i_o_1afb2e04cfaef2a70ff341b93d99482af0">_close</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_error_i_o_1a6865b17029c3e9d154648b68820ffb8c">_close</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_memory_i_o_1a9ddf8340b04fce1ffaf210e01fb79124">_close</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_file_i_o_1a7304ac2b5c86d254d744a9cf2cb0ce34">_close</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_shore_i_o_1a3c3773eb4b3f739b841d8279ad1142c8">_close</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_i_o_1ac8c287a06a9e63d1ebef785a8efcfe05">_close</reimplementedby>
+        <reimplementedby refid="classdlg_1_1io_1_1_ngas_lite_i_o_1a2598cb5f62b3e098f6304763c379660a">_close</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dlg/io.py" line="169" column="1" bodyfile="dlg/io.py" bodystart="169" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A class used to read/write data stored in a particular kind of storage in an
+abstract way. This base class simply declares a number of methods that
+deriving classes must actually implement to handle different storage
+mechanisms (e.g., a local filesystem or an NGAS server).
+
+An instance of this class represents a particular piece of data. Thus at
+construction time users must specify a storage-specific unique identifier
+for the data that this object handles (e.g., a filename in the case of a
+DataIO class that works with local filesystem storage, or a host:port/fileId
+combination in the case of a class that works with an NGAS server).
+
+Once an instance has been created it can be opened via its `open` method
+indicating an open mode. If opened with `OpenMode.OPEN_READ`, only read
+operations will be allowed on the instance, and if opened with
+`OpenMode.OPEN_WRITE` only writing operations will be allowed.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>dlg.io.ShoreIO</label>
+        <link refid="classdlg_1_1io_1_1_shore_i_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>dlg.io.DataIO</label>
+        <link refid="classdlg_1_1io_1_1_data_i_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>dlg.io.NgasIO</label>
+        <link refid="classdlg_1_1io_1_1_ngas_i_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>dlg.io.MemoryIO</label>
+        <link refid="classdlg_1_1io_1_1_memory_i_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+      <node id="8">
+        <label>dlg.io.NullIO</label>
+        <link refid="classdlg_1_1io_1_1_null_i_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>dlg.io.FileIO</label>
+        <link refid="classdlg_1_1io_1_1_file_i_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>dlg.io.NgasLiteIO</label>
+        <link refid="classdlg_1_1io_1_1_ngas_lite_i_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>dlg.io.ErrorIO</label>
+        <link refid="classdlg_1_1io_1_1_error_i_o"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>dlg.io.DataIO</label>
+        <link refid="classdlg_1_1io_1_1_data_i_o"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="dlg/io.py" line="46" column="1" bodyfile="dlg/io.py" bodystart="46" bodyend="171"/>
+    <listofallmembers>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a8dd78e162ff70a212c194b83fde592f6" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>__init__</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a90d2be5bd3086e58dcea6c867afdd03e" prot="private" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>__metaclass__</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a81ba123552b490d36c0b48725b9a992f" prot="private" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>_close</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1afcacd11a866005785e8b8a5f779f8c64" prot="private" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>_desc</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a36499b6379e5e0a1bc353973c9007d52" prot="private" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>_mode</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1ad3e2dbf1f943988884e8b0c24a810aa8" prot="private" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>_open</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1abe75ab7246f0302fed4afed9f5451ba7" prot="private" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>_read</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1abfd832802db1908cfb3de2af340e044f" prot="private" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>_write</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a4b07e618575666ce9bc8c187e52c1af5" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>close</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1ab968d8e7bdbc120cb4fd008e104869bf" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>delete</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1ab00e8bd46814d868b88b35316514ac91" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>exists</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a8aba85be0b543302d1d54e2c5e5475f3" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>isOpened</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a26f55fc3ec07c4ba1b368efabec59030" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>open</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1a40ba2bf7d6316e18bf4390c0ebedae29" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>read</name></member>
+      <member refid="classdlg_1_1io_1_1_data_i_o_1ab879d559c140a654adb579beaa21ccdd" prot="public" virt="non-virtual"><scope>dlg::io::DataIO</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
