@@ -1,0 +1,105 @@
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Exclusive Force Node", 
+            "isGroup": true, 
+            "streaming": false, 
+            "inputApplication": "", 
+            "subject": null, 
+            "category": "ExclusiveForceNode", 
+            "loc": "499 103", 
+            "outputAppFields": [], 
+            "outputAppName": "", 
+            "canHaveInputs": false, 
+            "inputAppName": "", 
+            "desiredSize": {
+                "width": 394, 
+                "height": 210
+            }, 
+            "inputAppFields": [], 
+            "description": "A group that completely specifies the computation on a single node. All child components must be deployed to a single node, and no other components can be deployed to the same node.", 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [], 
+            "colour": "#000000", 
+            "inputPorts": [], 
+            "exitAppName": "", 
+            "categoryType": "Control", 
+            "outputApplication": ""
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "c6c5fe41-c27f-4fac-bd84-a4002623436f"
+                }
+            ], 
+            "outputLocalPorts": [], 
+            "text": "Python App", 
+            "isGroup": false, 
+            "streaming": false, 
+            "inputApplication": "Unknown", 
+            "subject": null, 
+            "category": "Component", 
+            "loc": "506 165", 
+            "group": -1, 
+            "outputAppName": "", 
+            "canHaveInputs": true, 
+            "inputAppName": "", 
+            "inputAppFields": [], 
+            "description": "An application component in the form of a Python app", 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "outputAppFields": [], 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5"
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1"
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0"
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "test.graphsRepository"
+                }
+            ], 
+            "colour": "#3498DB", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "8f688734-ea90-496d-8dd6-d75587394fac"
+                }
+            ], 
+            "exitAppName": "", 
+            "categoryType": "Application", 
+            "outputApplication": "Unknown"
+        }
+    ], 
+    "modelData": {
+        "filePath": "exclusive/exclusive.graph", 
+        "fileType": "graph", 
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "git_url": "", 
+        "repoService": "GitHub"
+    }
+}
