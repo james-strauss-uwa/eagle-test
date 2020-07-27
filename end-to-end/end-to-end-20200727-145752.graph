@@ -1,0 +1,282 @@
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "15f186e2-4481-4c29-8427-98ff11e2be3f"
+                }
+            ], 
+            "color": "#394BB2", 
+            "text": "test memory", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Memory", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": true, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": true, 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Data"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "60b7bacd-5921-467d-adde-6c40be23250b"
+                }
+            ], 
+            "color": "#1C2833", 
+            "text": "test shell app", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "BashShellApp", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": true, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "An application component run within the Bash Shell", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Arg01", 
+                    "name": "Arg01", 
+                    "value": "", 
+                    "description": "The command line to be executed"
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "f9925a5d-07d2-47ca-b6d9-2a7eacd112df"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Application"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "8846e388-ba62-48d2-869f-defd16dd10f7"
+                }
+            ], 
+            "color": "#3498DB", 
+            "text": "test file", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Component", 
+            "outputAppFields": [], 
+            "selected": true, 
+            "canHaveInputs": true, 
+            "showPorts": true, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "An application component in the form of a Python app", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -3, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "test.graphsRepository", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "0d0dba91-27b4-42ae-a260-23333905f00f"
+                }
+            ], 
+            "y": 400, 
+            "x": 900, 
+            "categoryType": "Application"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#394BB2", 
+            "text": "File", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "File", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": true, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -4, 
+            "isData": true, 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Check file path exists", 
+                    "name": "check_filepath_exists", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "File path", 
+                    "name": "filepath", 
+                    "value": "", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Directory name", 
+                    "name": "dirname", 
+                    "value": "", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "25647a07-093a-48af-b806-b099ae8fdab9"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Data"
+        }
+    ], 
+    "modelData": {
+        "repoBranch": "master", 
+        "filePath": "end-to-end/end-to-end-20200727-145752.graph", 
+        "fileType": "graph", 
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "git_url": "", 
+        "repoService": "GitHub"
+    }
+}
