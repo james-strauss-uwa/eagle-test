@@ -1,0 +1,451 @@
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [], 
+            "color": "#229954", 
+            "text": "Start", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Start", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Control"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#CB4335", 
+            "text": "End", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "End", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Control"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#799938", 
+            "text": "Comment", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Comment", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -3, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Other"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#9B3065", 
+            "text": "Description", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Description", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -4, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Other"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "93e5bd02-2183-4a08-8a53-5c563e3a98ca"
+                }, 
+                {
+                    "IdText": "spead2Stream", 
+                    "Id": "2d94ae25-10ee-4cef-957e-f96576ad9b52"
+                }
+            ], 
+            "color": "#DDAD00", 
+            "text": "ClusterScatterAverager", 
+            "isGroup": true, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Scatter", 
+            "outputAppFields": [], 
+            "selected": true, 
+            "canHaveInputs": true, 
+            "showPorts": true, 
+            "width": 200, 
+            "inputAppFields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "test.graphsRepository", 
+                    "description": ""
+                }
+            ], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "Component", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "Placeholder 'scatter' description", 
+            "outputLocalPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "aee436cb-4d62-4d36-b2ef-5e6d5114572b"
+                }
+            ], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "33d38082-31c7-4228-90f9-3bbbf9b15cec"
+                }
+            ], 
+            "key": -5, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Number of copies", 
+                    "name": "num_of_copies", 
+                    "value": "4608", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Scatter axis", 
+                    "name": "scatter_axis", 
+                    "value": "Config", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "ccb9aa0c-f522-4001-a3c8-dd5a5dc6783f"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Group"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "4a503f94-5232-409b-b074-6c8f8957b29a"
+                }, 
+                {
+                    "IdText": "subMS", 
+                    "Id": "ec8a14a4-e769-425e-b0ca-02c2c9d33ae7"
+                }
+            ], 
+            "color": "#D35400", 
+            "text": "Averager", 
+            "isGroup": true, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Gather", 
+            "outputAppFields": [], 
+            "selected": true, 
+            "canHaveInputs": true, 
+            "showPorts": true, 
+            "width": 200, 
+            "inputAppFields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "test.graphsRepository", 
+                    "description": ""
+                }, 
+                {
+                    "text": "conf", 
+                    "name": "conf", 
+                    "value": "/home/wu082/proj/jacal/summit_demo/oskar/ingest/conf/recv.json", 
+                    "description": ""
+                }
+            ], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "Component", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "Placeholder 'gather' description", 
+            "outputLocalPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "1978d918-c1d6-4465-91e1-4af0e6b53c97"
+                }
+            ], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "832d41ab-db48-4a1c-b494-d5b3e5f8e9b4"
+                }
+            ], 
+            "key": -6, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Number of inputs", 
+                    "name": "num_of_inputs", 
+                    "value": "6", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Gather axis", 
+                    "name": "gather_axis", 
+                    "value": "frequency", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "8902b28d-260b-4434-8585-ee1c553b1be0"
+                }, 
+                {
+                    "IdText": "spead2Stream", 
+                    "Id": "b3493247-491c-4f75-8ed1-72ab15169420"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Group"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "d32b46dc-b4db-4b77-ad4d-39800f24993b"
+                }, 
+                {
+                    "IdText": "spead2Stream", 
+                    "Id": "2426f297-9523-41d7-a47b-6b34dbd422d1"
+                }
+            ], 
+            "color": "#3498DB", 
+            "text": "Ingest Big Component", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Component", 
+            "outputAppFields": [], 
+            "selected": true, 
+            "canHaveInputs": true, 
+            "showPorts": true, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "An application component in the form of a Python app", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -7, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "test.graphsRepository", 
+                    "description": ""
+                }, 
+                {
+                    "text": "freq_range", 
+                    "name": "freq_range", 
+                    "value": "freq_range", 
+                    "description": ""
+                }, 
+                {
+                    "text": "num_freq", 
+                    "name": "num_freq", 
+                    "value": "num_freq", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "c4ef859c-1860-4920-9dc1-8c835604499e"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Application"
+        }
+    ], 
+    "modelData": {
+        "repoBranch": "master", 
+        "filePath": "cycle/cycle-20200727-162913.palette", 
+        "fileType": "palette", 
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "git_url": "", 
+        "repoService": "GitHub"
+    }
+}
