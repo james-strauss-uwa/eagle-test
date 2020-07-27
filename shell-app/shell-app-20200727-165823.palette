@@ -1,0 +1,344 @@
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [], 
+            "color": "#229954", 
+            "text": "Start", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Start", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Control"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#CB4335", 
+            "text": "End", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "End", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Control"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#799938", 
+            "text": "Comment", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Comment", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -3, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Other"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#9B3065", 
+            "text": "Description", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Description", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -4, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Other"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "831b0354-1996-4c70-8182-caac75c0562a"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "b6c3dc10-78df-4b36-9eed-b86f04a0cbfe"
+                }
+            ], 
+            "color": "#1C2833", 
+            "text": "DD", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "BashShellApp", 
+            "outputAppFields": [], 
+            "selected": true, 
+            "canHaveInputs": true, 
+            "showPorts": true, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "An application component run within the Bash Shell", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -5, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Arg01", 
+                    "name": "Arg01", 
+                    "value": "dd", 
+                    "description": "The command line to be executed"
+                }, 
+                {
+                    "text": "dd", 
+                    "name": "dd", 
+                    "value": "/dev/urandom", 
+                    "description": ""
+                }, 
+                {
+                    "text": "if", 
+                    "name": "if", 
+                    "value": "%o[${ID}]", 
+                    "description": ""
+                }, 
+                {
+                    "text": "of", 
+                    "name": "of", 
+                    "value": "1024", 
+                    "description": ""
+                }, 
+                {
+                    "text": "bs", 
+                    "name": "bs", 
+                    "value": "10240", 
+                    "description": ""
+                }, 
+                {
+                    "text": "count", 
+                    "name": "count", 
+                    "value": "", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "901a398a-8923-477b-ba02-98d0dc1c3061"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Application"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "831b0354-1996-4c70-8182-caac75c0562a"
+                }
+            ], 
+            "color": "#1C2833", 
+            "text": "MD5", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "BashShellApp", 
+            "outputAppFields": [], 
+            "selected": true, 
+            "canHaveInputs": true, 
+            "showPorts": true, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "An application component run within the Bash Shell", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -6, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Arg01", 
+                    "name": "Arg01", 
+                    "value": "md5 %i[-2] > %o[-3]", 
+                    "description": "The command line to be executed"
+                }, 
+                {
+                    "text": "md5", 
+                    "name": "md5", 
+                    "value": "", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "901a398a-8923-477b-ba02-98d0dc1c3061"
+                }, 
+                {
+                    "IdText": "random_file", 
+                    "Id": "3c5db4b6-31d5-4fac-8290-2b94078acb8a"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Application"
+        }
+    ], 
+    "modelData": {
+        "repoBranch": "master", 
+        "filePath": "shell-app/shell-app-20200727-165823.palette", 
+        "fileType": "palette", 
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "git_url": "", 
+        "repoService": "GitHub"
+    }
+}
