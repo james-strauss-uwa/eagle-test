@@ -1,0 +1,96 @@
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "dd8b67e1-19ec-46ef-90db-37e89e85f311"
+                }
+            ], 
+            "color": "#229954", 
+            "text": "Start", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Start", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": false, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "The starting point for workflow execution", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Control"
+        }, 
+        {
+            "outputPorts": [], 
+            "color": "#CB4335", 
+            "text": "End", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "End", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": true, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "The end of workflow execution", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": false, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "isData": false, 
+            "fields": [], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "4eae466d-af10-41fa-b30f-70368f4c54cc"
+                }
+            ], 
+            "y": 100, 
+            "x": 300, 
+            "categoryType": "Control"
+        }
+    ], 
+    "modelData": {
+        "repoBranch": "master", 
+        "filePath": "test/test.palette", 
+        "fileType": "palette", 
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "git_url": "", 
+        "repoService": "GitHub"
+    }
+}
