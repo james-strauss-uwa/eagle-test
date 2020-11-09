@@ -1,0 +1,221 @@
+{
+    "linkDataArray": [
+        {
+            "toPort": "f1675bf7-0635-478a-aa63-443ecacf5441", 
+            "fromPort": "74168e74-0956-4865-975d-4de2a6493c4c", 
+            "loop_aware": "0", 
+            "from": -2, 
+            "to": -3
+        }, 
+        {
+            "toPort": "1ae74ff2-76e4-4235-bfcc-02d057b1ee3a", 
+            "fromPort": "2afcddb2-ccf9-44aa-9250-80d603955e9b", 
+            "loop_aware": "0", 
+            "from": -3, 
+            "to": -1
+        }
+    ], 
+    "nodeDataArray": [
+        {
+            "outputPorts": [], 
+            "color": "#DDAD00", 
+            "text": "Scatter", 
+            "isGroup": true, 
+            "height": 470, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Scatter", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": true, 
+            "showPorts": false, 
+            "width": 783, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "Placeholder 'scatter' description", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -1, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Number of copies", 
+                    "name": "num_of_copies", 
+                    "value": "4", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Scatter axis", 
+                    "name": "scatter_axis", 
+                    "value": "time", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "Config", 
+                    "Id": "1ae74ff2-76e4-4235-bfcc-02d057b1ee3a"
+                }
+            ], 
+            "y": 134, 
+            "x": 763, 
+            "categoryType": "Group"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "Config", 
+                    "Id": "74168e74-0956-4865-975d-4de2a6493c4c"
+                }
+            ], 
+            "color": "#3498DB", 
+            "text": "ProduceConfig", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Component", 
+            "outputAppFields": [], 
+            "selected": true, 
+            "canHaveInputs": true, 
+            "showPorts": true, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "PythonApp that scatters the input directions into N groups and creates a JSON config file for CallLeap.py", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -2, 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Execution time", 
+                    "name": "execution_time", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Num CPUs", 
+                    "name": "num_cpus", 
+                    "value": "1", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group start", 
+                    "name": "group_start", 
+                    "value": "0", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Appclass", 
+                    "name": "appclass", 
+                    "value": "CallLeap", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "Directions", 
+                    "Id": "fbece430-78d3-469b-a73e-e3716ac6913f"
+                }
+            ], 
+            "y": 126, 
+            "x": 404, 
+            "categoryType": "Application"
+        }, 
+        {
+            "outputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "bcb6d51a-b595-4b19-bf82-4cbacef78b07"
+                }, 
+                {
+                    "IdText": "Config", 
+                    "Id": "2afcddb2-ccf9-44aa-9250-80d603955e9b"
+                }
+            ], 
+            "color": "#394BB2", 
+            "text": "Config", 
+            "isGroup": false, 
+            "height": 200, 
+            "streaming": false, 
+            "subject": null, 
+            "category": "Memory", 
+            "outputAppFields": [], 
+            "selected": false, 
+            "canHaveInputs": true, 
+            "showPorts": false, 
+            "width": 200, 
+            "inputAppFields": [], 
+            "exitApplicationType": "None", 
+            "inputApplicationType": "None", 
+            "inputApplicationName": "", 
+            "drawOrderHint": 0, 
+            "outputApplicationType": "None", 
+            "description": "", 
+            "outputLocalPorts": [], 
+            "collapsed": false, 
+            "canHaveOutputs": true, 
+            "outputApplicationName": "", 
+            "inputLocalPorts": [], 
+            "key": -3, 
+            "isData": true, 
+            "fields": [
+                {
+                    "text": "Data volume", 
+                    "name": "data_volume", 
+                    "value": "5", 
+                    "description": ""
+                }, 
+                {
+                    "text": "Group end", 
+                    "name": "group_end", 
+                    "value": "0", 
+                    "description": ""
+                }
+            ], 
+            "expanded": false, 
+            "exitApplicationName": "", 
+            "inputPorts": [
+                {
+                    "IdText": "event", 
+                    "Id": "2a9d9d7d-caab-4947-81fe-62260d12a194"
+                }, 
+                {
+                    "IdText": "Config", 
+                    "Id": "f1675bf7-0635-478a-aa63-443ecacf5441"
+                }
+            ], 
+            "y": 127, 
+            "x": 565.5, 
+            "categoryType": "Data"
+        }
+    ], 
+    "modelData": {
+        "repoBranch": "master", 
+        "filePath": "test.graph", 
+        "fileType": "graph", 
+        "repo": "james-strauss-uwa/eagle-test", 
+        "sha": "", 
+        "git_url": "", 
+        "repoService": "GitHub"
+    }
+}
