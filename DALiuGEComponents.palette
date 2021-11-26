@@ -36,7 +36,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [
                 {
                     "Id": "59d56dc4-6e6e-4830-90b5-52da5ea08abf",
@@ -148,7 +148,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [],
             "outputPorts": [],
             "inputLocalPorts": [],
@@ -232,7 +232,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [],
             "outputPorts": [
                 {
@@ -325,7 +325,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [],
             "outputPorts": [
                 {
@@ -428,7 +428,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [
                 {
                     "Id": "d6147716-abcb-4308-a64b-24af0eba9c30",
@@ -530,7 +530,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [
                 {
                     "Id": "769ded77-b796-468e-87e6-6a564669ca44",
@@ -632,7 +632,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [
                 {
                     "Id": "2d4519ac-ef4f-41b1-b7ae-7dc4496d1636",
@@ -744,7 +744,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [
                 {
                     "Id": "d700360f-2f1c-4589-8b7f-0c7abf07b907",
@@ -856,7 +856,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [
                 {
                     "Id": "6a170a2b-ecb7-4da2-b0d3-0d2007fa5fe5",
@@ -999,7 +999,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [],
             "outputPorts": [
                 {
@@ -1132,7 +1132,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [],
             "outputPorts": [],
             "inputLocalPorts": [],
@@ -1226,7 +1226,7 @@
             "expanded": false,
             "readonly": true,
             "git_url": "https://github.com/ICRAR/daliuge.git",
-            "sha": "70a1d13",
+            "sha": "baea9b8",
             "inputPorts": [],
             "outputPorts": [
                 {
