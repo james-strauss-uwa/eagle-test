@@ -56,7 +56,7 @@
                     "text": "Data volume",
                     "name": "data_volume",
                     "value": 5,
-                    "defaultValue": "5",
+                    "defaultValue": "",
                     "description": "Estimated size of the data contained in this node",
                     "readonly": false,
                     "type": "Float",
@@ -66,7 +66,7 @@
                     "text": "Group end",
                     "name": "group_end",
                     "value": false,
-                    "defaultValue": "false",
+                    "defaultValue": "",
                     "description": "Is this node the end of a group?",
                     "readonly": false,
                     "type": "Boolean",
@@ -76,7 +76,7 @@
                     "text": "Check file path exists",
                     "name": "check_filepath_exists",
                     "value": true,
-                    "defaultValue": "true",
+                    "defaultValue": "",
                     "description": "Perform a check to make sure the file path exists before proceeding with the application",
                     "readonly": false,
                     "type": "Boolean",
@@ -130,8 +130,26 @@
             "precious": false,
             "git_url": "",
             "sha": "",
-            "inputPorts": [],
-            "outputPorts": [],
+            "inputPorts": [
+                {
+                    "Id": "8c8e128b-7396-48cb-99ec-73489189b7e1",
+                    "IdText": "array",
+                    "text": "array",
+                    "event": false,
+                    "type": "array",
+                    "description": "Array ports"
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "2368bfcd-5107-4eae-89c5-0d9be359de34",
+                    "IdText": "array",
+                    "text": "array",
+                    "event": false,
+                    "type": "array",
+                    "description": "Array ports"
+                }
+            ],
             "inputLocalPorts": [],
             "outputLocalPorts": [],
             "fields": [
@@ -139,7 +157,7 @@
                     "text": "Data volume",
                     "name": "data_volume",
                     "value": 5,
-                    "defaultValue": "5",
+                    "defaultValue": "",
                     "description": "Estimated size of the data contained in this node",
                     "readonly": false,
                     "type": "Float",
@@ -149,7 +167,7 @@
                     "text": "Group end",
                     "name": "group_end",
                     "value": false,
-                    "defaultValue": "false",
+                    "defaultValue": "",
                     "description": "Is this node the end of a group?",
                     "readonly": false,
                     "type": "Boolean",
@@ -159,7 +177,7 @@
                     "text": "Check file path exists",
                     "name": "check_filepath_exists",
                     "value": true,
-                    "defaultValue": "true",
+                    "defaultValue": "",
                     "description": "Perform a check to make sure the file path exists before proceeding with the application",
                     "readonly": false,
                     "type": "Boolean",
