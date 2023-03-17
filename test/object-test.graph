@@ -1,0 +1,602 @@
+{
+    "modelData": {
+        "fileType": "Graph",
+        "repoService": "GitHub",
+        "repoBranch": "master",
+        "repo": "james-strauss-uwa/eagle-test",
+        "filePath": "test/object-test.graph",
+        "eagleVersion": "Unknown",
+        "eagleCommitHash": "Unknown",
+        "schemaVersion": "OJS",
+        "readonly": true,
+        "repositoryUrl": "",
+        "commitHash": "",
+        "downloadUrl": "",
+        "signature": "",
+        "lastModifiedName": "",
+        "lastModifiedEmail": "",
+        "lastModifiedDatetime": 0,
+        "numLGNodes": 4
+    },
+    "nodeDataArray": [
+        {
+            "category": "PythonMemberFunction",
+            "categoryType": "Application",
+            "isGroup": false,
+            "color": "#0059a5",
+            "drawOrderHint": 0,
+            "key": -1,
+            "text": "ObjectA::__init__",
+            "description": "",
+            "x": 858,
+            "y": 220,
+            "width": 200,
+            "height": 72,
+            "collapsed": false,
+            "flipPorts": false,
+            "subject": null,
+            "expanded": true,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/11ba8a60bb5ebfb25cb979aa0e001c89a2550684/EAGLE-856/object-test.palette",
+            "dataHash": "",
+            "inputPorts": [
+                {
+                    "Id": "eb90e7aa-2ea0-4b6f-9da6-fe02c65d93b3",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "c76e7df7-558e-43ef-95a9-a15a8fbb5831",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Application Class",
+                    "name": "appclass",
+                    "value": "dlg.apps.pyfunc.PyFuncApp",
+                    "defaultValue": "dlg.apps.pyfunc.PyFuncApp",
+                    "description": "The python class that implements this application",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Execution Time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "No. of CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Number of CPUs used for this application.",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "defaultValue": "false",
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "applicationArgs": [
+                {
+                    "text": "Function Name",
+                    "name": "func_name",
+                    "value": "ObjectA.__init__",
+                    "defaultValue": "ObjectA.__init__",
+                    "description": "Python function name",
+                    "readonly": true,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": true,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Input Parser",
+                    "name": "input_parser",
+                    "value": "pickle",
+                    "defaultValue": "pickle",
+                    "description": "Input port parsing technique",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "pickle",
+                        "eval",
+                        "npy",
+                        "path",
+                        "dataurl"
+                    ],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Output Parser",
+                    "name": "output_parser",
+                    "value": "pickle",
+                    "defaultValue": "pickle",
+                    "description": "Output port parsing technique",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "pickle",
+                        "eval",
+                        "npy",
+                        "path",
+                        "dataurl"
+                    ],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "basename",
+                    "name": "basename",
+                    "value": "some.path.to.ObjectA",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "inputApplicationDescription": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "outputApplicationDescription": ""
+        },
+        {
+            "category": "PythonObject",
+            "categoryType": "Unknown",
+            "isGroup": false,
+            "color": "#00F5FF",
+            "drawOrderHint": 0,
+            "key": -2,
+            "text": "some.path.to.ObjectA",
+            "description": "Instance of Object",
+            "x": 1158,
+            "y": 220,
+            "width": 200,
+            "height": 72,
+            "collapsed": false,
+            "flipPorts": false,
+            "subject": null,
+            "expanded": true,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "",
+            "dataHash": "",
+            "inputPorts": [
+                {
+                    "Id": "05759555-eb71-4c73-8a49-ba4f3e3c8746",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "211f42dd-b9c5-45cf-b218-b33e6015ca12",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "self",
+                    "name": "self",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": true,
+                    "type": "Object.self",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "self",
+                    "name": "self",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": true,
+                    "type": "Object.self",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "applicationArgs": [
+                {
+                    "text": "basename",
+                    "name": "basename",
+                    "value": "some.path.to.ObjectA",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "inputApplicationDescription": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "outputApplicationDescription": ""
+        },
+        {
+            "category": "PythonMemberFunction",
+            "categoryType": "Application",
+            "isGroup": false,
+            "color": "#0059a5",
+            "drawOrderHint": 0,
+            "key": -3,
+            "text": "ObjectA::run",
+            "description": "",
+            "x": 1462,
+            "y": 369,
+            "width": 200,
+            "height": 72,
+            "collapsed": false,
+            "flipPorts": false,
+            "subject": null,
+            "expanded": true,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/11ba8a60bb5ebfb25cb979aa0e001c89a2550684/EAGLE-856/object-test.palette",
+            "dataHash": "",
+            "inputPorts": [
+                {
+                    "Id": "62069d3b-02d2-46d1-bbf3-27cac5655ccd",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "61442051-3b00-4cf0-9f0d-c8e32b1dc9b2",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Application Class",
+                    "name": "appclass",
+                    "value": "dlg.apps.pyfunc.PyFuncApp",
+                    "defaultValue": "dlg.apps.pyfunc.PyFuncApp",
+                    "description": "The python class that implements this application",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Execution Time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "Estimate of execution time (in seconds) for this application.",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "No. of CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Number of CPUs used for this application.",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "defaultValue": "false",
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "applicationArgs": [
+                {
+                    "text": "Function Name",
+                    "name": "func_name",
+                    "value": "ObjectA.__init__",
+                    "defaultValue": "ObjectA.__init__",
+                    "description": "Python function name",
+                    "readonly": true,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": true,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Input Parser",
+                    "name": "input_parser",
+                    "value": "pickle",
+                    "defaultValue": "pickle",
+                    "description": "Input port parsing technique",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "pickle",
+                        "eval",
+                        "npy",
+                        "path",
+                        "dataurl"
+                    ],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Output Parser",
+                    "name": "output_parser",
+                    "value": "pickle",
+                    "defaultValue": "pickle",
+                    "description": "Output port parsing technique",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "pickle",
+                        "eval",
+                        "npy",
+                        "path",
+                        "dataurl"
+                    ],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "basename",
+                    "name": "basename",
+                    "value": "some.path.to.ObjectA",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "inputApplicationDescription": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "outputApplicationDescription": ""
+        },
+        {
+            "category": "PythonObject",
+            "categoryType": "Unknown",
+            "isGroup": false,
+            "color": "#00F5FF",
+            "drawOrderHint": 0,
+            "key": -4,
+            "text": "some.path.to.ObjectA",
+            "description": "Instance of Object",
+            "x": 1762,
+            "y": 369,
+            "width": 200,
+            "height": 72,
+            "collapsed": true,
+            "flipPorts": false,
+            "subject": null,
+            "expanded": true,
+            "repositoryUrl": "",
+            "commitHash": "",
+            "paletteDownloadUrl": "",
+            "dataHash": "",
+            "inputPorts": [
+                {
+                    "Id": "ed4e4cb8-c77d-44e0-8235-afb820ead7fe",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "71bd756a-8296-4c80-aef5-5b43f96a7e47",
+                    "IdText": "self",
+                    "text": "self",
+                    "event": false,
+                    "type": "Object.self",
+                    "description": "",
+                    "keyAttribute": false
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "self",
+                    "name": "self",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": true,
+                    "type": "Object.self",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "self",
+                    "name": "self",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": true,
+                    "type": "Object.self",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "applicationArgs": [
+                {
+                    "text": "basename",
+                    "name": "basename",
+                    "value": "some.path.to.ObjectA",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "inputApplicationDescription": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "outputApplicationDescription": ""
+        }
+    ],
+    "linkDataArray": [
+        {
+            "from": -1,
+            "fromPort": "c76e7df7-558e-43ef-95a9-a15a8fbb5831",
+            "to": -2,
+            "toPort": "05759555-eb71-4c73-8a49-ba4f3e3c8746",
+            "dataType": "Object.self",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": -3,
+            "fromPort": "61442051-3b00-4cf0-9f0d-c8e32b1dc9b2",
+            "to": -4,
+            "toPort": "ed4e4cb8-c77d-44e0-8235-afb820ead7fe",
+            "dataType": "Object.self",
+            "loop_aware": "0",
+            "closesLoop": false
+        },
+        {
+            "from": -2,
+            "fromPort": "211f42dd-b9c5-45cf-b218-b33e6015ca12",
+            "to": -3,
+            "toPort": "62069d3b-02d2-46d1-bbf3-27cac5655ccd",
+            "dataType": "Object.self",
+            "loop_aware": "0",
+            "closesLoop": false
+        }
+    ]
+}
