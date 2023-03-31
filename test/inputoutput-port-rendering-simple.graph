@@ -1,0 +1,331 @@
+{
+    "modelData": {
+        "filePath": "test/inputoutput-port-rendering-simple.graph",
+        "fileType": "Graph",
+        "shortDescription": "",
+        "detailedDescription": "",
+        "repoService": "GitHub",
+        "repoBranch": "master",
+        "repo": "james-strauss-uwa/eagle-test",
+        "eagleVersion": "Unknown",
+        "eagleCommitHash": "Unknown",
+        "schemaVersion": "OJS",
+        "readonly": true,
+        "repositoryUrl": "",
+        "commitHash": "",
+        "downloadUrl": "",
+        "signature": "",
+        "lastModifiedName": "",
+        "lastModifiedEmail": "",
+        "lastModifiedDatetime": 0,
+        "numLGNodes": 2
+    },
+    "nodeDataArray": [
+        {
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "isGroup": false,
+            "color": "#0059a5",
+            "drawOrderHint": 0,
+            "key": -1,
+            "text": "AverageArrays",
+            "description": "A testing APP that takes multiple numpy arrays on input and calculates the mean or the median, depending on the value provided in the method parameter. Users can add as many producers to the input array port as required and the resulting array will also be send to all connected output apps.",
+            "x": 882,
+            "y": 385,
+            "width": 200,
+            "height": 72,
+            "collapsed": false,
+            "flipPorts": false,
+            "subject": null,
+            "expanded": false,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "76b2aaa",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
+            "dataHash": "5d949bf905fff7f6ecd010a7f82fb46794db11b967100e85f33f92501838c2a3",
+            "inputPorts": [
+                {
+                    "Id": "257d2443-ef77-4257-bd33-3b941551c018",
+                    "IdText": "array",
+                    "text": "Array",
+                    "event": false,
+                    "type": "Object.Array",
+                    "description": "Port for the input array(s)",
+                    "keyAttribute": false
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "49d9e8dc-b344-4c35-9f66-ea2daf0f502c",
+                    "IdText": "array",
+                    "text": "Array",
+                    "event": false,
+                    "type": "Object.Array",
+                    "description": "Port carrying the averaged array",
+                    "keyAttribute": false
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Application Class",
+                    "name": "appclass",
+                    "value": "dlg.apps.simple.AverageArraysApp",
+                    "defaultValue": "dlg.apps.simple.AverageArraysApp",
+                    "description": "Application class",
+                    "readonly": true,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Execution Time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "Estimated execution time",
+                    "readonly": true,
+                    "type": "Float",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "No. of CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Number of cores used",
+                    "readonly": true,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "defaultValue": "False",
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Input error rate (%)",
+                    "name": "input_error_threshold",
+                    "value": 0,
+                    "defaultValue": "0",
+                    "description": "the allowed failure rate of the inputs (in percent), before this component goes to ERROR state and is not executed",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Number of tries",
+                    "name": "n_tries",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Specifies the number of times the 'run' method will be executed before finally giving up",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "applicationArgs": [
+                {
+                    "text": "Method",
+                    "name": "method",
+                    "value": "mean",
+                    "defaultValue": "mean",
+                    "description": "The method used for averaging",
+                    "readonly": false,
+                    "type": "Select",
+                    "precious": false,
+                    "options": [
+                        "mean",
+                        "median"
+                    ],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "inputApplicationDescription": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "outputApplicationDescription": ""
+        },
+        {
+            "category": "PythonApp",
+            "categoryType": "Application",
+            "isGroup": false,
+            "color": "#0059a5",
+            "drawOrderHint": 0,
+            "key": -2,
+            "text": "CopyApp",
+            "description": "A simple APP that copies its inputs into its outputs. All inputs are copied into all outputs in the order they were declared in the graph. If an input is a container (e.g. a directory) it copies the content recursively.",
+            "x": 1529,
+            "y": 384,
+            "width": 200,
+            "height": 72,
+            "collapsed": false,
+            "flipPorts": false,
+            "subject": null,
+            "expanded": false,
+            "repositoryUrl": "https://github.com/ICRAR/daliuge",
+            "commitHash": "76b2aaa",
+            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
+            "dataHash": "75d1c30bfd0e7b8ff914763b264530683f0ae78782bcd333da2a21ae61615699",
+            "inputPorts": [
+                {
+                    "Id": "a5aec568-59d4-4bf8-8b1b-6215327ae0f4",
+                    "IdText": "dummy",
+                    "text": "Dummy",
+                    "event": false,
+                    "type": "Object",
+                    "description": "Dummy input port",
+                    "keyAttribute": false
+                }
+            ],
+            "outputPorts": [
+                {
+                    "Id": "3e00ed8d-0585-48b5-b9b0-a4f45a91cac7",
+                    "IdText": "dummy",
+                    "text": "Dummy",
+                    "event": false,
+                    "type": "Object",
+                    "description": "Dummy output port",
+                    "keyAttribute": false
+                }
+            ],
+            "inputLocalPorts": [],
+            "outputLocalPorts": [],
+            "fields": [
+                {
+                    "text": "Application Class",
+                    "name": "appclass",
+                    "value": "dlg.apps.simple.CopyApp",
+                    "defaultValue": "dlg.apps.simple.CopyApp",
+                    "description": "Application class",
+                    "readonly": true,
+                    "type": "String",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Execution Time",
+                    "name": "execution_time",
+                    "value": 5,
+                    "defaultValue": "5",
+                    "description": "Estimated execution time",
+                    "readonly": true,
+                    "type": "Float",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "No. of CPUs",
+                    "name": "num_cpus",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Number of cores used",
+                    "readonly": true,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Group start",
+                    "name": "group_start",
+                    "value": false,
+                    "defaultValue": "False",
+                    "description": "Is this node the start of a group?",
+                    "readonly": false,
+                    "type": "Boolean",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Input error rate (%)",
+                    "name": "input_error_threshold",
+                    "value": 0,
+                    "defaultValue": "0",
+                    "description": "the allowed failure rate of the inputs (in percent), before this component goes to ERROR state and is not executed",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                },
+                {
+                    "text": "Number of tries",
+                    "name": "n_tries",
+                    "value": 1,
+                    "defaultValue": "1",
+                    "description": "Specifies the number of times the 'run' method will be executed before finally giving up",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "applicationArgs": [
+                {
+                    "text": "buffer size",
+                    "name": "bufsize",
+                    "value": 65536,
+                    "defaultValue": "65536",
+                    "description": "Buffer size",
+                    "readonly": false,
+                    "type": "Integer",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false
+                }
+            ],
+            "inputAppFields": [],
+            "outputAppFields": [],
+            "inputApplicationName": "",
+            "inputApplicationType": "None",
+            "inputApplicationKey": null,
+            "inputApplicationDescription": "",
+            "outputApplicationName": "",
+            "outputApplicationType": "None",
+            "outputApplicationKey": null,
+            "outputApplicationDescription": ""
+        }
+    ],
+    "linkDataArray": []
+}
