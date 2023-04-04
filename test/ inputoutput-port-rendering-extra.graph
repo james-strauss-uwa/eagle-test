@@ -37,25 +37,11 @@
             "collapsed": false,
             "flipPorts": false,
             "subject": null,
-            "expanded": false,
+            "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "47c45ec",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "5f3b4bdcd74ebbbaf0e46ab1a125b53962c84a9d947255b96e2891f9274af5d3",
-            "inputPorts": [],
-            "outputPorts": [
-                {
-                    "Id": "1755b48e-11bb-44ac-a00d-328f85d4b43a",
-                    "IdText": "array",
-                    "text": "Array",
-                    "event": false,
-                    "type": "Object.Array",
-                    "description": "Port carrying the averaged array",
-                    "keyAttribute": false
-                }
-            ],
-            "inputLocalPorts": [],
-            "outputLocalPorts": [],
             "fields": [
                 {
                     "text": "Application Class",
@@ -68,7 +54,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "e259ac9a-d53e-4fa8-bae9-e98ea9275ce5",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Execution Time",
@@ -81,7 +70,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "17348ea3-c40f-46f6-ae1a-f5d527a11c9f",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "No. of CPUs",
@@ -94,7 +86,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "0ad594fa-8c04-4655-b010-f7d437808a19",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Group start",
@@ -107,7 +102,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "3bc8e06f-77ca-4ee6-84dc-b76d3fe48106",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Input error rate (%)",
@@ -120,7 +118,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "9126b13c-2be5-4128-a184-ad4035d2e7dc",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Number of tries",
@@ -133,10 +134,11 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
-                }
-            ],
-            "applicationArgs": [
+                    "keyAttribute": false,
+                    "id": "8f03f1e2-aeb0-4035-9200-3483f73e6337",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                },
                 {
                     "text": "Size",
                     "name": "size",
@@ -148,7 +150,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "ec4d5eb8-7f62-48a1-bc90-09d8e0c4f0c6",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Integer",
@@ -161,7 +166,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "dd709f01-f5b6-4701-8eea-033c62967e29",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Low",
@@ -174,7 +182,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "d732b50c-4688-45ee-99c2-7e6c3323ff50",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "High",
@@ -187,7 +198,26 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "0ac8c09c-8752-4bcb-bd1b-94fd475e67db",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "NoPort"
+                },
+                {
+                    "text": "Array",
+                    "name": "array",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "Port carrying the averaged array",
+                    "readonly": false,
+                    "type": "Object.Array",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false,
+                    "id": "1755b48e-11bb-44ac-a00d-328f85d4b43a",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "OutputPort"
                 }
             ],
             "inputAppFields": [],
@@ -222,30 +252,6 @@
             "commitHash": "47c45ec",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "5d949bf905fff7f6ecd010a7f82fb46794db11b967100e85f33f92501838c2a3",
-            "inputPorts": [
-                {
-                    "Id": "2ebb68b6-415b-45c5-ac9b-eb4127bc581b",
-                    "IdText": "array",
-                    "text": "Array",
-                    "event": false,
-                    "type": "Object.Array",
-                    "description": "Port for the input array(s)",
-                    "keyAttribute": false
-                }
-            ],
-            "outputPorts": [
-                {
-                    "Id": "2ebb68b6-415b-45c5-ac9b-eb4127bc581b",
-                    "IdText": "array",
-                    "text": "Array",
-                    "event": false,
-                    "type": "Object.Array",
-                    "description": "Port for the input array(s)",
-                    "keyAttribute": false
-                }
-            ],
-            "inputLocalPorts": [],
-            "outputLocalPorts": [],
             "fields": [
                 {
                     "text": "Application Class",
@@ -258,7 +264,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "f67d597e-c8df-4366-8613-42f4c76f5c9c",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Execution Time",
@@ -271,7 +280,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "85322b95-e18f-40a6-9924-3975bac3f1db",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "No. of CPUs",
@@ -284,7 +296,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "845bfe22-689f-4bad-9be7-c5d6b5a920e0",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Group start",
@@ -297,7 +312,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "2e4c4954-73d0-4ee0-b80b-30006a07116b",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Input error rate (%)",
@@ -310,7 +328,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "df245040-3800-48ed-93e8-a55ff873575d",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Number of tries",
@@ -323,10 +344,11 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
-                }
-            ],
-            "applicationArgs": [
+                    "keyAttribute": false,
+                    "id": "c009dcc6-a4b4-4178-a7f2-34099797c830",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                },
                 {
                     "text": "Method",
                     "name": "method",
@@ -341,7 +363,26 @@
                         "median"
                     ],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "479d305d-52b0-4cf8-b5c1-dd161e91a09d",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "NoPort"
+                },
+                {
+                    "text": "Array",
+                    "name": "array",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "Port for the input array(s)",
+                    "readonly": false,
+                    "type": "Object.Array",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false,
+                    "id": "2ebb68b6-415b-45c5-ac9b-eb4127bc581b",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -371,35 +412,11 @@
             "collapsed": true,
             "flipPorts": false,
             "subject": null,
-            "expanded": false,
+            "expanded": true,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "47c45ec",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "bdd22bee7376f167e21e8c1e298aec05e2b69e6bd8b1481a27386ee7ab1a18c1",
-            "inputPorts": [
-                {
-                    "Id": "ed39d87a-c3c2-4d98-8622-b0895c0ba048",
-                    "IdText": "array",
-                    "text": "Array",
-                    "event": false,
-                    "type": "Object.Array",
-                    "description": "",
-                    "keyAttribute": false
-                }
-            ],
-            "outputPorts": [
-                {
-                    "Id": "762a338b-f7e4-4a42-93a2-5b2c2837bd9a",
-                    "IdText": "array",
-                    "text": "Array",
-                    "event": false,
-                    "type": "Object.Array",
-                    "description": "",
-                    "keyAttribute": false
-                }
-            ],
-            "inputLocalPorts": [],
-            "outputLocalPorts": [],
             "fields": [
                 {
                     "text": "Data volume",
@@ -412,7 +429,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "fa66e30e-9385-423a-8955-12c5fe3ebe75",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Group end",
@@ -425,7 +445,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "1d7c7d60-a85f-4937-865a-be3062658bf1",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Streaming",
@@ -438,7 +461,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "7b1d28ab-0026-4351-a826-23749fb212fa",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Persist",
@@ -451,10 +477,28 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "fe8cd681-f48a-4bee-abb9-b20b949d2a67",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                },
+                {
+                    "text": "Array",
+                    "name": "array",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "",
+                    "readonly": false,
+                    "type": "Object.Array",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false,
+                    "id": "ed39d87a-c3c2-4d98-8622-b0895c0ba048",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "InputOutput"
                 }
             ],
-            "applicationArgs": [],
             "inputAppFields": [],
             "outputAppFields": [],
             "inputApplicationName": "",
@@ -487,30 +531,6 @@
             "commitHash": "47c45ec",
             "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE_test_repo/master/daliuge/daliuge-master.palette",
             "dataHash": "a2e75b8b5302b158a6c625551a8137de0f454c4f49d2d5a95501d677bfe021a8",
-            "inputPorts": [
-                {
-                    "Id": "4f3353d0-252d-4271-abf7-a76d65dc1704",
-                    "IdText": "dummy",
-                    "text": "dummy",
-                    "event": false,
-                    "type": "Object.Array",
-                    "description": "Dummy input port",
-                    "keyAttribute": false
-                }
-            ],
-            "outputPorts": [
-                {
-                    "Id": "4f3353d0-252d-4271-abf7-a76d65dc1704",
-                    "IdText": "dummy",
-                    "text": "dummy",
-                    "event": false,
-                    "type": "Object.Array",
-                    "description": "Dummy input port",
-                    "keyAttribute": false
-                }
-            ],
-            "inputLocalPorts": [],
-            "outputLocalPorts": [],
             "fields": [
                 {
                     "text": "Check existence",
@@ -523,7 +543,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "c33bda26-d47b-4573-825a-7468d4e267c2",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Streaming",
@@ -536,7 +559,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "ec9fccbe-edc2-4223-b6b1-7fae84d2620b",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Persist",
@@ -549,7 +575,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "9de89077-4828-4905-92f6-f93a0804423f",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Delete parent",
@@ -562,7 +591,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "f684ebe9-0947-45c6-8ea6-81a385f135a3",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Data volume",
@@ -575,7 +607,10 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "e5f5895c-3abb-462f-90f4-89609ed7f5ab",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
                 },
                 {
                     "text": "Group end",
@@ -588,10 +623,11 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
-                }
-            ],
-            "applicationArgs": [
+                    "keyAttribute": false,
+                    "id": "f32f2130-8816-4aca-82b4-c65b9aa38785",
+                    "parameterType": "ComponentParameter",
+                    "usage": "NoPort"
+                },
                 {
                     "text": "File Path",
                     "name": "filepath",
@@ -603,7 +639,26 @@
                     "precious": false,
                     "options": [],
                     "positional": false,
-                    "keyAttribute": false
+                    "keyAttribute": false,
+                    "id": "b4b45313-5d3e-4204-a4fe-89417e818cf4",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "NoPort"
+                },
+                {
+                    "text": "dummy",
+                    "name": "dummy",
+                    "value": "",
+                    "defaultValue": "",
+                    "description": "Dummy input port",
+                    "readonly": false,
+                    "type": "Object.Array",
+                    "precious": false,
+                    "options": [],
+                    "positional": false,
+                    "keyAttribute": false,
+                    "id": "4f3353d0-252d-4271-abf7-a76d65dc1704",
+                    "parameterType": "ApplicationArgument",
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -630,7 +685,7 @@
         },
         {
             "from": -3,
-            "fromPort": "762a338b-f7e4-4a42-93a2-5b2c2837bd9a",
+            "fromPort": "ed39d87a-c3c2-4d98-8622-b0895c0ba048",
             "to": -2,
             "toPort": "2ebb68b6-415b-45c5-ac9b-eb4127bc581b",
             "dataType": "Object.Array",
