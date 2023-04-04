@@ -913,23 +913,7 @@
                     "keyAttribute": false,
                     "id": "05e7cbd4-1181-46ec-9337-5cb48e861e87",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
-                },
-                {
-                    "text": "Array",
-                    "name": "array",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "Port carrying the averaged array",
-                    "readonly": false,
-                    "type": "Object.Array",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "14b8125b-f375-4840-9570-c639c91f9a67",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "OutputPort"
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -1413,23 +1397,7 @@
                     "keyAttribute": false,
                     "id": "e0ef6d64-06ed-41a8-8f77-5a3d02d56f35",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
-                },
-                {
-                    "text": "Array",
-                    "name": "array",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "Port carrying the averaged array",
-                    "readonly": false,
-                    "type": "Object.Array",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "59456fc9-092d-4c52-8354-c786ecf18ca9",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "OutputPort"
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -1998,23 +1966,7 @@
                     "keyAttribute": false,
                     "id": "9231ccd1-5b1d-4e03-ae9d-6a8ca8ed3a85",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
-                },
-                {
-                    "text": "Dummy",
-                    "name": "dummy",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "Dummy output port",
-                    "readonly": false,
-                    "type": "Object",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "4786fe3b-19e8-42c1-815b-8930c27e38e3",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "OutputPort"
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -2176,23 +2128,7 @@
                     "keyAttribute": false,
                     "id": "2757d5a2-28fe-4554-8793-31b068137f54",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
-                },
-                {
-                    "text": "Dummy",
-                    "name": "dummy",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "Dummy output port",
-                    "readonly": false,
-                    "type": "Object",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "09fc5a95-9060-49bb-806a-dd4e5092bf4a",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "OutputPort"
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -2420,23 +2356,7 @@
                     "keyAttribute": false,
                     "id": "6c90334d-9fd6-474b-a482-9c45f325e6ea",
                     "parameterType": "ApplicationArgument",
-                    "usage": "InputPort"
-                },
-                {
-                    "text": "dummy",
-                    "name": "dummy",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "Dummy output port",
-                    "readonly": false,
-                    "type": "Object",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "keyAttribute": false,
-                    "id": "556faf91-e77e-41ad-a478-c2c841745366",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "OutputPort"
+                    "usage": "InputOutput"
                 }
             ],
             "inputAppFields": [],
@@ -2535,7 +2455,7 @@
         },
         {
             "from": -14,
-            "fromPort": "4786fe3b-19e8-42c1-815b-8930c27e38e3",
+            "fromPort": "9231ccd1-5b1d-4e03-ae9d-6a8ca8ed3a85",
             "to": -16,
             "toPort": "868f1c5d-5f5a-4443-9e56-9b6be98c2997",
             "dataType": "Object",
@@ -2553,7 +2473,7 @@
         },
         {
             "from": -17,
-            "fromPort": "556faf91-e77e-41ad-a478-c2c841745366",
+            "fromPort": "6c90334d-9fd6-474b-a482-9c45f325e6ea",
             "to": -13,
             "toPort": "fe67eac0-002d-4d3e-989d-0d10ce2ab4ec",
             "dataType": "Object",
