@@ -360,5 +360,15 @@
             "outputApplicationDescription": ""
         }
     ],
-    "linkDataArray": []
+    "linkDataArray": [
+        {
+            "from": -1,
+            "fromPort": "170a4c36-905f-49e4-a985-c88031442e74",
+            "to": -2,
+            "toPort": "1f0715f7-4315-4d44-a68c-2c0ff31a4f22",
+            "dataType": "Object",
+            "loop_aware": "0",
+            "closesLoop": false
+        }
+    ]
 }
