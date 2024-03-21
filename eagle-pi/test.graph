@@ -378,7 +378,7 @@
             "color": "#2c2c2c",
             "drawOrderHint": 0,
             "key": -3,
-            "name": "array",
+            "name": "Memory",
             "description": "In-memory storage of intermediate data products",
             "x": 898,
             "y": 545.73,
