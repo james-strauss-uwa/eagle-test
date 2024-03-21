@@ -30,8 +30,8 @@
             "key": -1,
             "name": "AverageArrays",
             "description": "A testing APP that takes multiple numpy arrays on input and calculates the mean or the median, depending on the value provided in the method parameter. Users can add as many producers to the input array port as required and the resulting array will also be send to all connected output apps.",
-            "x": 748,
-            "y": 398.23,
+            "x": 688,
+            "y": 645.23,
             "radius": 25,
             "collapsed": false,
             "subject": null,
@@ -55,7 +55,7 @@
                     ],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "0011ddd9-baf9-4676-83a4-011aa03924a4",
+                    "id": "405de070-e550-4023-9944-e82662b1f9e2",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
                 },
@@ -70,7 +70,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "edd0eebd-67dd-4587-a08a-df6d5eafdbf3",
+                    "id": "2de07a2d-3872-4aa0-b7ff-878c49ecacac",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -85,7 +85,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "58e2b7ba-e683-46fd-9016-d2ba5d944df1",
+                    "id": "89b64f5d-a5b2-4421-83ac-86119667d1a4",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -100,7 +100,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "6f62568f-cb43-4626-bfcf-d7808e1e431a",
+                    "id": "644573ec-4a55-487c-afb2-7224b4d1d51d",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -115,7 +115,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "64dbc3fd-99b2-417d-9ef4-d762e0cf9fe1",
+                    "id": "4312f2ea-0a9b-4557-aa18-040934696890",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -130,7 +130,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "c2cd1ed5-af1e-4b73-8fcc-453d41eccdc6",
+                    "id": "a0772315-0424-4fd2-9afc-2c1044aabcd1",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
                 },
@@ -152,7 +152,7 @@
                     ],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "6fc6d468-8de4-45ef-9f97-aedc4dfdafc0",
+                    "id": "39097315-259a-46e1-b349-969551216f72",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -174,7 +174,7 @@
                     ],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "e6279cde-7377-49e5-8d0a-e48f09bd0ebe",
+                    "id": "b2cd4d6d-25fd-4b59-a80f-153e88753bbc",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 }
@@ -196,11 +196,11 @@
             "isGroup": false,
             "color": "#0059a5",
             "drawOrderHint": 0,
-            "key": -3,
+            "key": -2,
             "name": "CopyApp",
             "description": "A simple APP that copies its inputs into its outputs. All inputs are copied into all outputs in the order they were declared in the graph. If an input is a container (e.g. a directory) it copies the content recursively.",
-            "x": 936,
-            "y": 286.23,
+            "x": 1108,
+            "y": 446.23,
             "radius": 25,
             "collapsed": false,
             "subject": null,
@@ -221,7 +221,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "aaf0cb45-3503-41e8-9fa7-134e1bf53772",
+                    "id": "da5db766-a2a6-44d9-a327-f62909b47e9d",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
                 },
@@ -236,7 +236,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "3a006c2c-2a89-4a1a-b001-c2c63082f36e",
+                    "id": "170a6ada-3edf-4cca-86c7-a9a2ebb2ee94",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -251,7 +251,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "bccf70c4-7337-4c4b-ae6a-857e7b9bca00",
+                    "id": "8876ad72-26b7-45d0-8ed8-e367cea00dad",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -266,7 +266,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "bd9427c4-6c30-4b6d-b004-d85b3b44bfdb",
+                    "id": "45df68c7-4155-44fe-99ef-1eac2f64a44e",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -281,7 +281,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "fbe40afc-f89c-4ddc-a678-f75daf507b5f",
+                    "id": "2e8d053f-8bad-4b9a-861d-e3b25e6b3c8e",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -296,7 +296,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "6e826a91-263e-4ca6-a649-86addc6b1b2e",
+                    "id": "f140dc8f-527f-436e-bcd5-4803f1275c16",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -311,7 +311,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "97443064-cdef-4193-a20a-ddba7ca4ec9b",
+                    "id": "ffae06f3-b208-4d1d-b15b-3e99ad74bd81",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
                 },
@@ -333,7 +333,7 @@
                     ],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "1b9919ef-582e-486a-a42d-75cc6f414b23",
+                    "id": "77a47144-ed61-442c-94c3-256d77b975a7",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -355,7 +355,7 @@
                     ],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "6655acea-9280-4354-aba0-6f46c9e183da",
+                    "id": "b13a5177-b782-4cd7-8f6e-efbca47eee30",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 }
@@ -372,16 +372,16 @@
             "outputApplicationDescription": ""
         },
         {
-            "category": "File",
+            "category": "Memory",
             "categoryType": "Data",
             "isGroup": false,
             "color": "#2c2c2c",
             "drawOrderHint": 0,
-            "key": -2,
+            "key": -3,
             "name": "array",
             "description": "In-memory storage of intermediate data products",
-            "x": 842,
-            "y": 342.23,
+            "x": 898,
+            "y": 545.73,
             "radius": 25,
             "collapsed": true,
             "subject": null,
@@ -402,7 +402,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "c1050c28-9dea-4a4c-89df-271373c21094",
+                    "id": "1a5fb1e7-e175-43bf-b573-bce38bc0b079",
                     "parameterType": "ApplicationArgument",
                     "usage": "NoPort"
                 },
@@ -417,7 +417,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "f182593c-34f5-4465-884b-ec78819ce18b",
+                    "id": "49400ae7-0555-477a-bc8d-da50dbaf7f74",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -432,7 +432,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "2aa7ee31-98da-4496-a59c-38a3ff3bb26b",
+                    "id": "f0114c83-ce18-4fe5-a489-170538b3a279",
                     "parameterType": "ConstraintParameter",
                     "usage": "NoPort"
                 },
@@ -447,7 +447,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "795eb616-d2d2-4c4f-aeca-e58d973c69a5",
+                    "id": "d384d782-50f9-4aa3-bf50-e5aae45cf337",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -462,7 +462,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "54016f9f-0371-435e-907a-0c5c9d1b334b",
+                    "id": "2ddced4e-ccc9-47db-9569-3c0f4495a836",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -477,7 +477,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "d67d5e96-aa9a-4d09-be4c-b4cf35092fef",
+                    "id": "e500a5b2-0a6f-40cb-b1bb-c1cc8f5616f4",
                     "parameterType": "ComponentParameter",
                     "usage": "NoPort"
                 },
@@ -492,7 +492,7 @@
                     "options": [],
                     "positional": false,
                     "keyAttribute": false,
-                    "id": "e505f812-1a7a-407f-83c6-447988bb8d29",
+                    "id": "e3f3bdea-3269-4b51-b383-adf30fb5601d",
                     "parameterType": "ApplicationArgument",
                     "usage": "InputOutput"
                 }
@@ -512,18 +512,18 @@
     "linkDataArray": [
         {
             "from": -1,
-            "fromPort": "c2cd1ed5-af1e-4b73-8fcc-453d41eccdc6",
-            "to": -2,
-            "toPort": "e505f812-1a7a-407f-83c6-447988bb8d29",
+            "fromPort": "a0772315-0424-4fd2-9afc-2c1044aabcd1",
+            "to": -3,
+            "toPort": "e3f3bdea-3269-4b51-b383-adf30fb5601d",
             "dataType": "Object.Array",
             "loop_aware": "0",
             "closesLoop": false
         },
         {
-            "from": -2,
-            "fromPort": "e505f812-1a7a-407f-83c6-447988bb8d29",
-            "to": -3,
-            "toPort": "97443064-cdef-4193-a20a-ddba7ca4ec9b",
+            "from": -3,
+            "fromPort": "e3f3bdea-3269-4b51-b383-adf30fb5601d",
+            "to": -2,
+            "toPort": "ffae06f3-b208-4d1d-b15b-3e99ad74bd81",
             "dataType": "Object.Array",
             "loop_aware": "0",
             "closesLoop": false
