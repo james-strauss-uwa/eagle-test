@@ -44,7 +44,7 @@
             "fields": [
                 {
                     "name": "image",
-                    "value": "icrar/ngas",
+                    "value": "icrar/daliuge-engine",
                     "defaultValue": "",
                     "description": "The name of the docker image to be used for this application",
                     "readonly": false,
@@ -59,7 +59,7 @@
                 },
                 {
                     "name": "docker_tag",
-                    "value": "latest",
+                    "value": "3.0.0",
                     "defaultValue": "1.0",
                     "description": "The tag of the docker image to be used for this application",
                     "readonly": false,
@@ -74,7 +74,7 @@
                 },
                 {
                     "name": "docker_digest",
-                    "value": "sha256:917b764a044c630e9faf7a0f6c7d1f2432a4aa68f217147f3838e5ce1ede92f9",
+                    "value": "sha256:831386509d685a3513bea7d9b43b60e0b72ce400846469cfc4665c14763be6fc",
                     "defaultValue": "",
                     "description": "The hexadecimal hash (long version) of the docker image to be used for this application",
                     "readonly": false,
@@ -435,7 +435,7 @@
             "fields": [
                 {
                     "name": "image",
-                    "value": "docker/highland_builder",
+                    "value": "docker/trusted-registry-distribution",
                     "defaultValue": "",
                     "description": "The name of the docker image to be used for this application",
                     "readonly": false,
@@ -450,7 +450,7 @@
                 },
                 {
                     "name": "docker_tag",
-                    "value": "3979.0.0-stable",
+                    "value": "v2.1.1",
                     "defaultValue": "1.0",
                     "description": "The tag of the docker image to be used for this application",
                     "readonly": false,
@@ -465,7 +465,7 @@
                 },
                 {
                     "name": "docker_digest",
-                    "value": "sha256:b4fce255ad9b7f2878b11184e1885379744211f30889fb0ae83e21bd5ebb631e",
+                    "value": "sha256:8c0cdc6f41db5e45cf70639a1caed19e202a9d8f803760e49777c22eb4ce1c73",
                     "defaultValue": "",
                     "description": "The hexadecimal hash (long version) of the docker image to be used for this application",
                     "readonly": false,
