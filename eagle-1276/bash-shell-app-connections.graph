@@ -1298,28 +1298,32 @@
             "fromPort": "13bfc77a-1bf0-4e87-b67a-5f0f45bdccf8",
             "to": "141b70d9-bd75-49f9-a4cc-2f23a98aad98",
             "toPort": "9dda5756-2e45-4992-bd1c-f74adfd93278",
-            "loop_aware": "1"
+            "loop_aware": "0",
+            "closesLoop": false
         },
         {
             "from": "141b70d9-bd75-49f9-a4cc-2f23a98aad98",
             "fromPort": "9dda5756-2e45-4992-bd1c-f74adfd93278",
             "to": "4a569948-6b7b-4fa4-a921-20e71fdc11e6",
             "toPort": "dfeb1d96-131b-4352-8f2e-d62ef869807d",
-            "loop_aware": "1"
+            "loop_aware": "0",
+            "closesLoop": false
         },
         {
             "from": "3132a0bc-cf01-452c-84c9-62ae0a421207",
             "fromPort": "b1190ba3-a10f-4240-97c2-ea59b3ca3c4e",
             "to": "b10e107a-4703-461b-a9b8-99a583264e16",
             "toPort": "824988a2-1576-4500-9e5d-9d812a202e1c",
-            "loop_aware": "1"
+            "loop_aware": "0",
+            "closesLoop": false
         },
         {
             "from": "b10e107a-4703-461b-a9b8-99a583264e16",
             "fromPort": "824988a2-1576-4500-9e5d-9d812a202e1c",
             "to": "40f52862-6d29-455c-b8bc-a5c25a192b43",
             "toPort": "90d3b25d-753a-48dc-853b-7a73c7743557",
-            "loop_aware": "1"
+            "loop_aware": "0",
+            "closesLoop": false
         }
     ]
 }
