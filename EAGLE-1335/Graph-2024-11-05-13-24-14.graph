@@ -8,7 +8,7 @@
         "repoBranch": "master",
         "repo": "james-strauss-uwa/eagle-test",
         "generatorVersion": "v6.4.2 (dev)",
-        "generatorCommitHash": "825de1f7",
+        "generatorCommitHash": "49d54117",
         "generatorName": "EAGLE",
         "schemaVersion": "OJS",
         "readonly": false,
@@ -31,7 +31,7 @@
                     "fields": {
                         "64a205a7-20ed-47d4-a5f1-062f1e417baf": {
                             "value": "200",
-                            "comment": ""
+                            "comment": "Some normal comment goes here"
                         }
                     }
                 }
