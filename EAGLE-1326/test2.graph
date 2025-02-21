@@ -19,23 +19,14 @@
         "lastModifiedName": "",
         "lastModifiedEmail": "",
         "lastModifiedDatetime": 0,
-        "numLGNodes": 7
+        "numLGNodes": 6
     },
     "activeGraphConfigId": "04fc815d-bdc0-4ca6-ba9c-82947f208143",
     "graphConfigurations": {
         "b06275c0-fcb4-4703-93c4-0ca5e6eb3f61": {
             "name": "Default Configuration",
             "description": "Default",
-            "nodes": {
-                "62b3e577-4511-48b9-823a-73e5ceee536a": {
-                    "fields": {
-                        "96c50156-73e0-4cd3-b245-82129ba7459d": {
-                            "value": "10",
-                            "comment": ""
-                        }
-                    }
-                }
-            },
+            "nodes": {},
             "lastModifiedName": "",
             "lastModifiedEmail": "",
             "lastModifiedDatetime": 0
@@ -43,16 +34,7 @@
         "e3b68c9e-01af-4fec-9906-ba0d16f03f85": {
             "name": "Default Configuration (Copy)",
             "description": "Default Alt",
-            "nodes": {
-                "62b3e577-4511-48b9-823a-73e5ceee536a": {
-                    "fields": {
-                        "96c50156-73e0-4cd3-b245-82129ba7459d": {
-                            "value": "12345",
-                            "comment": ""
-                        }
-                    }
-                }
-            },
+            "nodes": {},
             "lastModifiedName": "",
             "lastModifiedEmail": "",
             "lastModifiedDatetime": 0
@@ -81,234 +63,11 @@
             "isGroup": false,
             "color": "#0059a5",
             "drawOrderHint": 0,
-            "id": "62b3e577-4511-48b9-823a-73e5ceee536a",
-            "name": "RandomArrayApp",
-            "description": "A testing APP that does not take any input and produces a random array of type int64, if integer is set to True, else of type float64. size indicates the number of elements ranging between the values low and high. The resulting array will be send to all connected output apps.",
-            "x": 741.4077940153089,
-            "y": 542.7581837160752,
-            "subject": null,
-            "repositoryUrl": "https://github.com/ICRAR/daliuge",
-            "commitHash": "ff6f09b",
-            "paletteDownloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/master/daliuge/daliuge-master.palette",
-            "dataHash": "1a3268b1b718cc2923de7efa28f1c180aa0c1b108395f5fe1a89c76da5ff32c2",
-            "fields": [
-                {
-                    "name": "size",
-                    "value": 100,
-                    "defaultValue": "100",
-                    "description": "The size of the array",
-                    "readonly": false,
-                    "type": "Integer",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "96c50156-73e0-4cd3-b245-82129ba7459d",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "low",
-                    "value": 0,
-                    "defaultValue": "0",
-                    "description": "Low value of range in array [inclusive]",
-                    "readonly": false,
-                    "type": "Float",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "59aa7fb0-652a-4608-927e-e9fe7b282a0c",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "high",
-                    "value": 1,
-                    "defaultValue": "1",
-                    "description": "High value of range of array [exclusive]",
-                    "readonly": false,
-                    "type": "Float",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "e532f13d-5ece-4503-8c1b-2dde293c58d5",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "integer",
-                    "value": true,
-                    "defaultValue": "True",
-                    "description": "Generate integer array?",
-                    "readonly": false,
-                    "type": "Boolean",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "c7c39095-41e8-4514-b95e-3b2c8703f075",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "dropclass",
-                    "value": "dlg.apps.simple.RandomArrayApp",
-                    "defaultValue": "dlg.apps.simple.RandomArrayApp",
-                    "description": "Application class",
-                    "readonly": false,
-                    "type": "String",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "f20ed2e0-f503-4982-bd22-6daffaa39dcc",
-                    "parameterType": "ComponentParameter",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "base_name",
-                    "value": "simple",
-                    "defaultValue": "simple",
-                    "description": "Base name of application class",
-                    "readonly": false,
-                    "type": "String",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "e6c11226-5fa9-4d47-8b23-9683badd9aa3",
-                    "parameterType": "ComponentParameter",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "execution_time",
-                    "value": 5,
-                    "defaultValue": "5",
-                    "description": "Estimated execution time",
-                    "readonly": false,
-                    "type": "Float",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "cc7fadf3-53bf-4326-a325-c5f552149ba4",
-                    "parameterType": "ConstraintParameter",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "num_cpus",
-                    "value": 1,
-                    "defaultValue": "1",
-                    "description": "Number of cores used",
-                    "readonly": false,
-                    "type": "Integer",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "a211590a-8980-4572-bfc5-75c4f1220a90",
-                    "parameterType": "ConstraintParameter",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "group_start",
-                    "value": false,
-                    "defaultValue": "False",
-                    "description": "Is this node the start of a group?",
-                    "readonly": false,
-                    "type": "Boolean",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "618795ea-6038-4262-8681-de4192a654cb",
-                    "parameterType": "ComponentParameter",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "array",
-                    "value": "",
-                    "defaultValue": "",
-                    "description": "random array",
-                    "readonly": false,
-                    "type": "Object.Array",
-                    "precious": false,
-                    "options": [],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "77be40d0-f6cf-42b3-a822-b25ea7affb89",
-                    "parameterType": "ApplicationArgument",
-                    "usage": "OutputPort"
-                },
-                {
-                    "name": "input_parser",
-                    "value": "pickle",
-                    "defaultValue": "pickle",
-                    "description": "Input port parsing technique",
-                    "readonly": false,
-                    "type": "Select",
-                    "precious": false,
-                    "options": [
-                        "raw",
-                        "pickle",
-                        "eval",
-                        "npy",
-                        "path",
-                        "dataurl"
-                    ],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "1e5adba4-b3cb-4b07-8e05-af51ca6f9f9d",
-                    "parameterType": "ComponentParameter",
-                    "usage": "NoPort"
-                },
-                {
-                    "name": "output_parser",
-                    "value": "pickle",
-                    "defaultValue": "pickle",
-                    "description": "Output port parsing technique",
-                    "readonly": false,
-                    "type": "Select",
-                    "precious": false,
-                    "options": [
-                        "raw",
-                        "pickle",
-                        "eval",
-                        "npy",
-                        "path",
-                        "dataurl"
-                    ],
-                    "positional": false,
-                    "encoding": "pickle",
-                    "id": "fb72feec-21a8-4eed-b3c5-1a83290798d3",
-                    "parameterType": "ComponentParameter",
-                    "usage": "NoPort"
-                }
-            ],
-            "inputAppFields": [],
-            "outputAppFields": [],
-            "inputApplicationName": "",
-            "inputApplicationType": "None",
-            "inputApplicationId": null,
-            "inputApplicationDescription": "",
-            "outputApplicationName": "",
-            "outputApplicationType": "None",
-            "outputApplicationId": null,
-            "outputApplicationDescription": ""
-        },
-        {
-            "category": "PythonApp",
-            "categoryType": "Application",
-            "isGroup": false,
-            "color": "#0059a5",
-            "drawOrderHint": 0,
             "id": "092fd399-7f8a-4ff8-abcf-11b14d17aff4",
             "name": "AverageArrays",
             "description": "A testing APP that takes multiple numpy arrays on input and calculates the mean or the median, depending on the value provided in the method parameter. Users can add as many producers to the input array port as required and the resulting array will also be send to all connected output apps.",
-            "x": 1092.9826026443993,
-            "y": 549.0873416840645,
+            "x": 1105.4826026443993,
+            "y": 561.5873416840645,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "ff6f09b",
@@ -488,8 +247,8 @@
             "id": "4d36d55e-dfed-494f-b155-c31a788467b5",
             "name": "array",
             "description": "In-memory storage of intermediate data products",
-            "x": 874.0650661099502,
-            "y": 487.38727209464156,
+            "x": 883.0650661099502,
+            "y": 496.38727209464156,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "ff6f09b",
@@ -637,8 +396,8 @@
             "id": "9957acf9-2825-48b7-a607-770f49444a1b",
             "name": "array",
             "description": "A standard file on a filesystem mounted to the deployment machine",
-            "x": 1287.1670146137765,
-            "y": 448.57655532359075,
+            "x": 1296.1670146137765,
+            "y": 457.57655532359075,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "ff6f09b",
@@ -801,8 +560,8 @@
             "id": "acb902f4-13c8-4395-be4c-b6d1a731a3fe",
             "name": "GenericGatherApp",
             "description": "App that reads all its inputs and simply writes them in concatenated to all its outputs. This can be used stand-alone or as part of a Gather. It does not do anything to the data, just passing it on.",
-            "x": 953.0848990953394,
-            "y": 272.90517884481545,
+            "x": 965.5848990953394,
+            "y": 285.40517884481545,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "20b29ec",
@@ -995,8 +754,8 @@
             "id": "b0daba0f-56c1-4243-b91e-b147e55093ca",
             "name": "Gather",
             "description": "",
-            "x": 953.0848990953394,
-            "y": 301.21711343075845,
+            "x": 964.8790883785672,
+            "y": 311.96711343075845,
             "subject": null,
             "repositoryUrl": "",
             "commitHash": "",
@@ -1237,7 +996,7 @@
             "inputApplicationDescription": "",
             "outputApplicationName": "RandomArrayApp",
             "outputApplicationType": "PythonApp",
-            "outputApplicationId": "03c162b8-7252-4d60-a6c6-a856b0c4f9e1",
+            "outputApplicationId": "92eecca0-c92c-4de7-97e6-9f6c75262ec9",
             "outputApplicationDescription": "A testing APP that does not take any input and produces a random array of type int64, if integer is set to True, else of type float64. size indicates the number of elements ranging between the values low and high. The resulting array will be send to all connected output apps."
         },
         {
@@ -1249,8 +1008,8 @@
             "id": "e0487008-db85-4646-9ede-8d80ae248a5f",
             "name": "output",
             "description": "In-memory storage of intermediate data products",
-            "x": 948.1732776617949,
-            "y": 336.52904801670144,
+            "x": 957.1732776617949,
+            "y": 345.52904801670144,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "20b29ec",
@@ -1392,14 +1151,6 @@
         }
     ],
     "linkDataArray": [
-        {
-            "from": "62b3e577-4511-48b9-823a-73e5ceee536a",
-            "fromPort": "77be40d0-f6cf-42b3-a822-b25ea7affb89",
-            "to": "4d36d55e-dfed-494f-b155-c31a788467b5",
-            "toPort": "60adf423-f597-4441-9f7a-daca7f45559b",
-            "loop_aware": "0",
-            "closesLoop": false
-        },
         {
             "from": "4d36d55e-dfed-494f-b155-c31a788467b5",
             "fromPort": "60adf423-f597-4441-9f7a-daca7f45559b",
