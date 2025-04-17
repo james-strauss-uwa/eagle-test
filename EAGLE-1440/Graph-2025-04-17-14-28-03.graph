@@ -33,8 +33,8 @@
             "id": "3d13b45d-1131-4037-a5f1-a7c860cc4dfe",
             "name": "HelloWorldApp",
             "description": "A simple APP that implements the standard Hello World in DALiuGE. It allows to change 'World' with some other string and it also permits to connect the single output port to multiple sinks, which will all receive the same message. App does not require any input.",
-            "x": 1151,
-            "y": 224.23000000000002,
+            "x": 1163.5,
+            "y": 236.73000000000002,
             "subject": null,
             "repositoryUrl": "https://github.com/ICRAR/daliuge",
             "commitHash": "3224f45",
@@ -54,7 +54,7 @@
                     "encoding": "pickle",
                     "id": "480e067d-103b-4b76-bb6d-a2ccb696a6b1",
                     "parameterType": "ApplicationArgument",
-                    "usage": "NoPort"
+                    "usage": "InputPort"
                 },
                 {
                     "name": "log_level",
