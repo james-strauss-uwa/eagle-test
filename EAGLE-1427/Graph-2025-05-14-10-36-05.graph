@@ -2,8 +2,8 @@
     "modelData": {
         "filePath": "EAGLE-1427/Graph-2025-05-14-10-36-05.graph",
         "fileType": "Graph",
-        "shortDescription": "",
-        "detailedDescription": "",
+        "shortDescription": "This is an example short description for the graph",
+        "detailedDescription": "This is an example detailed description for the graph. It contains some **markdown**.",
         "repoService": "GitHub",
         "repoBranch": "master",
         "repo": "james-strauss-uwa/eagle-test",
