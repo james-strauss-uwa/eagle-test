@@ -1,0 +1,54 @@
+{
+    "modelData": {
+        "name": "testConfig",
+        "shortDescription": "",
+        "detailedDescription": "",
+        "type": "GraphConfig",
+        "schemaVersion": "Unknown",
+        "readonly": true,
+        "location": {
+            "repositoryService": "Unknown",
+            "repositoryBranch": "",
+            "repositoryName": "",
+            "repositoryPath": "",
+            "repositoryFileName": "",
+            "commitHash": "",
+            "downloadUrl": ""
+        },
+        "generatorVersion": "v6.8.0",
+        "generatorCommitHash": "8566c0d3db3eb8ddca7b3342a6eecc023269b147",
+        "generatorName": "EAGLE",
+        "repositoryUrl": "",
+        "graphLocation": {
+            "repositoryService": "Unknown",
+            "repositoryBranch": "",
+            "repositoryName": "",
+            "repositoryPath": "",
+            "repositoryFileName": "",
+            "commitHash": "",
+            "downloadUrl": ""
+        },
+        "signature": "",
+        "lastModifiedName": "",
+        "lastModifiedEmail": "",
+        "lastModifiedDatetime": 0,
+        "numLGNodes": 0,
+        "repo": "james-strauss-uwa/eagle-test",
+        "repoBranch": "master",
+        "repoService": "GitHub",
+        "filePath": "EAGLE-1563/testConfig.graphConfig",
+        "commitHash": "",
+        "downloadUrl": ""
+    },
+    "id": "31298dcb-969c-4e0a-b6ef-99e6d266b8c1",
+    "nodes": {
+        "a854ad39-a973-4091-b068-08fc1caebed4": {
+            "fields": {
+                "d7620913-0a22-4723-8ebc-3441c2e41228": {
+                    "value": "[\"2013-2014\", \"2015\", \"2016\", \"2017-2018\", \"2019\",\"2025\"]",
+                    "comment": ""
+                }
+            }
+        }
+    }
+}
