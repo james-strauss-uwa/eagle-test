@@ -1,6 +1,6 @@
 {
     "modelData": {
-        "name": "testConfig",
+        "name": "newConfig",
         "shortDescription": "",
         "detailedDescription": "",
         "type": "GraphConfig",
@@ -20,13 +20,13 @@
         "generatorName": "EAGLE",
         "repositoryUrl": "",
         "graphLocation": {
-            "repositoryService": "Unknown",
-            "repositoryBranch": "",
-            "repositoryName": "",
+            "repositoryService": "GitHub",
+            "repositoryBranch": "master",
+            "repositoryName": "ICRAR/EAGLE-graph-repo",
             "repositoryPath": "",
-            "repositoryFileName": "",
-            "commitHash": "",
-            "downloadUrl": ""
+            "repositoryFileName": "chilies_tclean_build_concat.graph",
+            "commitHash": "19d525b0c1625db252df8835ae0a7bbc6962ea6c",
+            "downloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/19d525b0c1625db252df8835ae0a7bbc6962ea6c/chilies_tclean_build_concat.graph"
         },
         "signature": "",
         "lastModifiedName": "",
@@ -40,7 +40,7 @@
         "commitHash": "",
         "downloadUrl": ""
     },
-    "id": "31298dcb-969c-4e0a-b6ef-99e6d266b8c1",
+    "id": "6f732ea9-9bbd-491a-943a-13fa09dcf174",
     "nodes": {
         "a854ad39-a973-4091-b068-08fc1caebed4": {
             "fields": {
