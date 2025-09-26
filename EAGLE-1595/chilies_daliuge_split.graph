@@ -1,16 +1,16 @@
 {
     "modelData": {
         "name": "chilies_daliuge_split.graph",
-        "shortDescription": "",
-        "detailedDescription": "",
+        "shortDescription": "Some short description",
+        "detailedDescription": "Some detailed description",
         "type": "Graph",
         "schemaVersion": "V4",
         "readonly": false,
         "location": {
             "repositoryService": "GitHub",
             "repositoryBranch": "master",
-            "repositoryName": "ICRAR/EAGLE-graph-repo",
-            "repositoryPath": "",
+            "repositoryName": "james-strauss-uwa/eagle-test",
+            "repositoryPath": "EAGLE-1595",
             "repositoryFileName": "chilies_daliuge_split.graph",
             "commitHash": "d35542dcbffc6331b18dff5a7bd0f018b9373300",
             "downloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/d35542dcbffc6331b18dff5a7bd0f018b9373300/chilies_daliuge_split.graph"
@@ -262,10 +262,7 @@
                     "id": "d097b84e-edf2-448b-b169-d2ac39c3591c",
                     "parameterType": "Component",
                     "usage": "OutputPort",
-                    "edgeIds": [
-                        "f9ff2bc3-a9b6-4813-a787-a55047c73631",
-                        "a238cdb3-a6e0-45a9-9abd-2bfb401bba36"
-                    ]
+                    "edgeIds": []
                 },
                 "13dfc7ec-4d5b-4497-a3b2-4c08cb2f65ad": {
                     "name": "New Parameter",
@@ -281,9 +278,7 @@
                     "id": "13dfc7ec-4d5b-4497-a3b2-4c08cb2f65ad",
                     "parameterType": "Component",
                     "usage": "OutputPort",
-                    "edgeIds": [
-                        "ebf1f889-bcca-4756-9b9b-924700addecf"
-                    ]
+                    "edgeIds": []
                 }
             },
             "inputApplicationId": null,
@@ -430,9 +425,7 @@
                     "id": "9f5b1105-3ca2-4ac3-aff6-2c07ff218be4",
                     "parameterType": "Application",
                     "usage": "InputOutput",
-                    "edgeIds": [
-                        "f9ff2bc3-a9b6-4813-a787-a55047c73631"
-                    ]
+                    "edgeIds": []
                 }
             },
             "inputApplicationId": null,
@@ -579,9 +572,7 @@
                     "id": "3663c68e-0f5a-444b-be3d-01554b9634cf",
                     "parameterType": "Application",
                     "usage": "InputOutput",
-                    "edgeIds": [
-                        "a238cdb3-a6e0-45a9-9abd-2bfb401bba36"
-                    ]
+                    "edgeIds": []
                 }
             },
             "inputApplicationId": null,
@@ -728,9 +719,7 @@
                     "id": "fd50ff9d-105d-4df0-a238-fb67e0006bac",
                     "parameterType": "Application",
                     "usage": "InputOutput",
-                    "edgeIds": [
-                        "ebf1f889-bcca-4756-9b9b-924700addecf"
-                    ]
+                    "edgeIds": []
                 }
             },
             "inputApplicationId": null,
@@ -739,7 +728,7 @@
     },
     "edges": {
         "f9ff2bc3-a9b6-4813-a787-a55047c73631": {
-            "id": "f9ff2bc3-a9b6-4813-a787-a55047c73631",
+            "id": "05f25d00-5392-4341-a39d-c4b92fe7be4b",
             "srcNodeId": "0ae8e668-6ab4-4903-b503-2c5abec709e5",
             "srcPortId": "d097b84e-edf2-448b-b169-d2ac39c3591c",
             "destNodeId": "7d71dc65-e711-4c16-b026-e2ebd26f72a0",
@@ -748,7 +737,7 @@
             "closesLoop": false
         },
         "a238cdb3-a6e0-45a9-9abd-2bfb401bba36": {
-            "id": "a238cdb3-a6e0-45a9-9abd-2bfb401bba36",
+            "id": "ebdfc4eb-c696-4418-ba1b-73581c06a74c",
             "srcNodeId": "0ae8e668-6ab4-4903-b503-2c5abec709e5",
             "srcPortId": "d097b84e-edf2-448b-b169-d2ac39c3591c",
             "destNodeId": "e64969e4-3da7-43aa-b55d-b533ede94339",
@@ -757,7 +746,7 @@
             "closesLoop": false
         },
         "ebf1f889-bcca-4756-9b9b-924700addecf": {
-            "id": "ebf1f889-bcca-4756-9b9b-924700addecf",
+            "id": "1bf8302f-ac0f-4d95-84ba-5bfa9f0feff6",
             "srcNodeId": "0ae8e668-6ab4-4903-b503-2c5abec709e5",
             "srcPortId": "13dfc7ec-4d5b-4497-a3b2-4c08cb2f65ad",
             "destNodeId": "adfc391f-23f5-4467-8d8f-510abe097cfd",
