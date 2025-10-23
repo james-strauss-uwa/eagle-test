@@ -25,8 +25,8 @@
     "graphConfigurations": {},
     "nodeDataArray": [
         {
-            "category": "GlobalVariables",
-            "categoryType": "Global",
+            "category": "UnknownCategory",
+            "categoryType": "UnknownCategoryType",
             "isGroup": false,
             "color": "#228b22",
             "drawOrderHint": 0,
