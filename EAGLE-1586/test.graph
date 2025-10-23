@@ -1,17 +1,17 @@
 {
     "modelData": {
-        "name": "Graph-2025-10-23-15-53-39.graph",
+        "name": "test.graph",
         "shortDescription": "",
         "detailedDescription": "",
         "type": "Graph",
         "schemaVersion": "V4",
         "readonly": false,
         "location": {
-            "repositoryService": "Unknown",
-            "repositoryBranch": "",
-            "repositoryName": "",
-            "repositoryPath": "",
-            "repositoryFileName": "",
+            "repositoryService": "GitHub",
+            "repositoryBranch": "master",
+            "repositoryName": "james-strauss-uwa/eagle-test",
+            "repositoryPath": "EAGLE-1586",
+            "repositoryFileName": "test.graph",
             "commitHash": "",
             "downloadUrl": ""
         },
@@ -40,16 +40,16 @@
         "commitHash": "",
         "downloadUrl": ""
     },
-    "activeGraphConfigId": "5d412b82-7e71-4211-8555-7c55b70ed297",
+    "activeGraphConfigId": "fc776ec9-8289-462a-aefe-b009787a058c",
     "graphConfigurations": {
-        "5d412b82-7e71-4211-8555-7c55b70ed297": {
+        "fc776ec9-8289-462a-aefe-b009787a058c": {
             "modelData": {
                 "name": "Default Configuration",
                 "shortDescription": "",
                 "detailedDescription": "",
-                "type": "Unknown",
+                "type": "GraphConfig",
                 "schemaVersion": "Unknown",
-                "readonly": true,
+                "readonly": false,
                 "location": {
                     "repositoryService": "Unknown",
                     "repositoryBranch": "",
@@ -64,11 +64,11 @@
                 "generatorName": "",
                 "repositoryUrl": "",
                 "graphLocation": {
-                    "repositoryService": "Unknown",
-                    "repositoryBranch": "",
-                    "repositoryName": "",
-                    "repositoryPath": "",
-                    "repositoryFileName": "",
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "master",
+                    "repositoryName": "james-strauss-uwa/eagle-test",
+                    "repositoryPath": "EAGLE-1586",
+                    "repositoryFileName": "test.graph",
                     "commitHash": "",
                     "downloadUrl": ""
                 },
@@ -78,7 +78,7 @@
                 "lastModifiedDatetime": 0,
                 "numLGNodes": 0
             },
-            "id": "5d412b82-7e71-4211-8555-7c55b70ed297",
+            "id": "fc776ec9-8289-462a-aefe-b009787a058c",
             "nodes": {
                 "e444ebe1-3e18-4de0-8ce1-7972c196bdb9": {
                     "fields": {
