@@ -7,10 +7,10 @@
         "schemaVersion": "V4",
         "readonly": false,
         "location": {
-            "repositoryService": "File",
-            "repositoryBranch": "",
-            "repositoryName": "",
-            "repositoryPath": "",
+            "repositoryService": "GitHub",
+            "repositoryBranch": "master",
+            "repositoryName": "james-strauss-uwa/eagle-test",
+            "repositoryPath": "EAGLE-1663",
             "repositoryFileName": "subgraph.graph",
             "commitHash": "",
             "downloadUrl": ""
@@ -64,10 +64,10 @@
                 "generatorName": "",
                 "repositoryUrl": "",
                 "graphLocation": {
-                    "repositoryService": "File",
-                    "repositoryBranch": "",
-                    "repositoryName": "",
-                    "repositoryPath": "",
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "master",
+                    "repositoryName": "james-strauss-uwa/eagle-test",
+                    "repositoryPath": "EAGLE-1663",
                     "repositoryFileName": "subgraph.graph",
                     "commitHash": "",
                     "downloadUrl": ""
