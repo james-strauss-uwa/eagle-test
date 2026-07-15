@@ -9,8 +9,8 @@
         "location": {
             "repositoryService": "GitHub",
             "repositoryBranch": "master",
-            "repositoryName": "ICRAR/EAGLE-graph-repo",
-            "repositoryPath": "graph_visual_examples",
+            "repositoryName": "james-strauss-uwa/eagle-test",
+            "repositoryPath": "EAGLE-1663",
             "repositoryFileName": "advent_simple.graph",
             "commitHash": "77a9f9c3e3aaaf49a62f317a9f34a0fce3e6af6b",
             "downloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/77a9f9c3e3aaaf49a62f317a9f34a0fce3e6af6b/graph_visual_examples/advent_simple.graph"
@@ -40,7 +40,7 @@
         "commitHash": "",
         "downloadUrl": ""
     },
-    "activeGraphConfigId": "5c14a349-247b-44c4-b064-ae99900b7dc7",
+    "activeGraphConfigId": "1d78d7e3-aac5-42ad-b24d-90124d6b4dba",
     "graphConfigurations": {
         "5c14a349-247b-44c4-b064-ae99900b7dc7": {
             "modelData": {
@@ -92,6 +92,74 @@
                     "fields": {
                         "3f549b7c-36bd-492f-9727-75281fc8b1fd": {
                             "value": false,
+                            "comment": ""
+                        }
+                    }
+                }
+            }
+        },
+        "1d78d7e3-aac5-42ad-b24d-90124d6b4dba": {
+            "modelData": {
+                "name": "newConfig (James)",
+                "shortDescription": "",
+                "detailedDescription": "",
+                "type": "GraphConfig",
+                "schemaVersion": "V4",
+                "readonly": false,
+                "location": {
+                    "repositoryService": "Unknown",
+                    "repositoryBranch": "",
+                    "repositoryName": "",
+                    "repositoryPath": "",
+                    "repositoryFileName": "",
+                    "commitHash": "",
+                    "downloadUrl": ""
+                },
+                "generatorVersion": "",
+                "generatorCommitHash": "",
+                "generatorName": "",
+                "repositoryUrl": "",
+                "graphLocation": {
+                    "repositoryService": "GitHub",
+                    "repositoryBranch": "master",
+                    "repositoryName": "james-strauss-uwa/eagle-test",
+                    "repositoryPath": "EAGLE-1663",
+                    "repositoryFileName": "advent_simple.graph",
+                    "commitHash": "77a9f9c3e3aaaf49a62f317a9f34a0fce3e6af6b",
+                    "downloadUrl": "https://raw.githubusercontent.com/ICRAR/EAGLE-graph-repo/77a9f9c3e3aaaf49a62f317a9f34a0fce3e6af6b/graph_visual_examples/advent_simple.graph"
+                },
+                "signature": "",
+                "lastModifiedName": "",
+                "lastModifiedEmail": "",
+                "lastModifiedDatetime": 0,
+                "numLGNodes": 0
+            },
+            "id": "1d78d7e3-aac5-42ad-b24d-90124d6b4dba",
+            "nodes": {
+                "a01a349b-5596-4252-a412-f02a8cf4318d": {
+                    "fields": {
+                        "1552e44d-3e69-4356-92bd-b874f467e615": {
+                            "value": "NOTSET",
+                            "comment": ""
+                        }
+                    }
+                },
+                "8424ab4f-b49a-4066-b19c-05d33abeae9c": {
+                    "fields": {
+                        "3f549b7c-36bd-492f-9727-75281fc8b1fd": {
+                            "value": false,
+                            "comment": ""
+                        },
+                        "e75414b9-68f5-48dc-8374-74ee6e3b0b25": {
+                            "value": "",
+                            "comment": ""
+                        }
+                    }
+                },
+                "58c0ac13-b6d3-410a-b5bf-a746e45c07dc": {
+                    "fields": {
+                        "c74ae4d7-86fb-40eb-a335-f72e3732d556": {
+                            "value": "",
                             "comment": ""
                         }
                     }
@@ -1047,7 +1115,7 @@
     },
     "visuals": {
         "1676a714-29f6-42f5-9de9-6cbbc6576442": {
-            "id": "8eac857f-3820-4eef-8ed6-f922a19a9cbf",
+            "id": "45a38410-96c3-4382-999c-221b6875e300",
             "x": 1076.9789084577267,
             "y": 141.50056149977692,
             "width": 362.20020282373224,
@@ -1058,7 +1126,7 @@
             "targetId": null
         },
         "0b25e4c9-25d7-430a-8878-fbbc61e16162": {
-            "id": "45d7f71f-db3c-491a-ac85-309498c36440",
+            "id": "4dcfbaf3-087a-4ef9-8d1b-4afb898952d2",
             "x": 1015.2643561206189,
             "y": -23.827313877692,
             "width": 248.64491477382165,
@@ -1069,7 +1137,7 @@
             "targetId": "319b3730-16be-472c-abe8-4751c59c24d8"
         },
         "b765ad51-c9c6-4169-b7ab-25f2035bdaf1": {
-            "id": "d402ddd2-7380-469a-8e29-04f18e2fab91",
+            "id": "de73af08-debb-4ced-87f5-fd67e8fc2ee2",
             "x": 1019.5264014431195,
             "y": 333.15539564244006,
             "width": 247.59550078686632,
@@ -1080,7 +1148,7 @@
             "targetId": "076c4e62-75e9-49df-81d0-6489c2ebf702"
         },
         "691e485f-25db-4759-a5a4-c7d8e54dcd55": {
-            "id": "535e4890-3560-46cd-b84a-a3f3c71394bb",
+            "id": "f21abdb3-27ca-4a3a-87c3-0a39f6e34c8e",
             "x": 732.9877006081376,
             "y": 331.2044815011999,
             "width": 113.27051045655605,
@@ -1091,7 +1159,7 @@
             "targetId": null
         },
         "7de6ac43-ec18-4cc8-9b05-1e0ce10cb671": {
-            "id": "e8fc1e73-da80-4bc4-ac96-5935cdcc09a7",
+            "id": "7aa6339a-e148-4ded-a656-0bac857151c7",
             "x": 1461.8171529122728,
             "y": 312.431246559252,
             "width": 155.247069934778,
